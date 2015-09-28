@@ -1,5 +1,4 @@
  X | Beautifull start page
- X | Elements page
  X | If non-IB, show topbar
  X | Custom site color
  X | Custom site title's color
