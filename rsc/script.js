@@ -1,10 +1,3 @@
-function whiteline() {
-	document.getElementById('handle-line').style.background='#fff';
-}
-function destroywhite() {
-	document.getElementById('handle-line').style.background='rgba(255, 255, 255, 0.5)';
-}
-
 $(document).ready(function(){
 	/*---------------------------------
 		Tabs system from 99Lime.com HTML KickStart by Joshua Gatcke
