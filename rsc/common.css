@@ -19,25 +19,8 @@ div.caption span{color:#333;font-size:14px}
 img.align-left, .img-wrap.align-left{float:left;margin:0 10px 5px 0}
 img.align-right, .img-wrap.align-right{float:right;margin:0 0 5px 10px}
 img.full-width{clear:both;display:block;width:100%;height:auto;margin:0 0 10px 0}
-.blockquotebtn {
-	background-color: #e7534f;
-	border-top: 1px solid #333;
-	border-left: 1px solid #333;
-	font-size: 20px;
-	font-weight: bold;
-	padding: 3px 8px;
-	border-radius: 10px 0 0 0;
-	color: #fff;
-	position: relative;
-	top: -7px;
-	left: 10px;
-	float: right;
-	-webkit-user-select: none;
-	-moz-user-select: none;
-	user-select: none
-}
 
-.blockquoteminibtn{border:1px solid #333;border-radius:0 !important;height:27px;top:-10px !important}.browsers{line-height:30px;margin-bottom:0px}.button,button{color:white;font-weight:bold;font-size:30px;padding:7px;background-color:#e7534f;border:1px solid #333;}.input,input{background:#d6d6d6;border:1px solid #333;font-family:Arial;color:#585b55;padding:5px}.textarea,textarea{display:inline;-webkit-margin-before:1em;-webkit-margin-after:1em;-webkit-margin-start:40px;-webkit-margin-end:40px;padding:10px;background:#d6d6d6;border:1px solid #333;font-family:Arial;color:#585b55;font-size:12px;font-weight:bold}
+.textarea,textarea{display:inline;-webkit-margin-before:1em;-webkit-margin-after:1em;-webkit-margin-start:40px;-webkit-margin-end:40px;padding:10px;background:#d6d6d6;border:1px solid #333;font-family:Arial;color:#585b55;font-size:12px;font-weight:bold}
 
 .footer-shadow {
 	width: 100%;
