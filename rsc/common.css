@@ -6,8 +6,9 @@ body{background:rgb(239, 239, 239);font-family:Arial;-webkit-font-smoothing:anti
 .h5, h5{font-size:40px;font-weight:bold;color:#333;margin:25px 0px 0px 0px}
 .h6, h6{font-size:30px;font-weight:bold;color:#333;margin:25px 0px 0px 0px}
 
-.badge{background-color:#e7534f;font-family:Arial;font-size:12px;font-weight:bold;padding:3px 8px;border-radius:3px;color:#fff;position:relative;top:-2px;margin-left:8px;display:inline}.badge.blue{background-color:#5b6ed6}.badge.green{background-color:#53a93f}
-
+.badge{background-color:#e7534f;font-family:Arial;font-weight:bold;padding:3px 8px;border-radius:3px;color:#fff;position:relative;margin-left:8px;display:inline}
+h1 .badge{font-size:40px;top:-14px}h2 .badge{font-size:35px;top:-12px}h3 .badge{font-size:30px;top:-12px}h4 .badge{font-size:25px;top:-10px}h5 .badge{font-size:20px;top:-8px}h6 .badge{font-size:15px;top:-6px}
+.badge.blue{background-color:#5b6ed6}.badge.green{background-color:#53a93f}
 .badge.mini{font-size:7px;-webkit-user-select:none;-moz-user-select:none;user-select:none}
 
 .p,p{color:#585b55;font-weight:bold;font-size:12px}.span,span{color:#888;font-size:10px}.blockquote,blockquote{padding:10px;background:#d6d6d6;color:#585b55;font-size:12px;font-weight:bold}
