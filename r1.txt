@@ -1,0 +1,19 @@
+PWA
+navigation menus (with button, buttons in header)
+build instructions
+tutorials: link wrapper in headings
+Upgr guide
+
+angularJS
+tt in footer
+FWK comm (foru, disc, tele)
+updated social links
+Social buttons
+
+search input
+Input: phone number, initial text, read-only, autocomplete and spell check
+fix sticky button link
+Navmenu as nav element
+breadcrumbs
+fix error in tiled list
+ready-sites: Plasnerd, P crpt, Gittex, Notestick, ultracreator, YM

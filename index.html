@@ -1,81 +1,220 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en-us">
 <head>
-<link rel="stylesheet" type="text/css" href="rsc/common.css">
+<meta charset="utf-8">
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<link rel="canonical" href="https://plasnerd.github.io/Framework.js/">
+<link rel="manifest" href="/manifest.json">
+
+
+<!-- Add to home screen for Safari on iOS -->
+
+<meta name="apple-mobile-web-app-capable" content="yes">
+
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+<meta name="apple-mobile-web-app-title" content="Weather PWA">
+
+<link rel="apple-touch-icon" href="images/icons/icon-152x152.png">
+
+<meta name="msapplication-TileImage" content="images/icons/icon-144x144.png">
+
+<meta name="msapplication-TileColor" content="#2F3BA2">
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/page-common.js"></script>
+<link rel="stylesheet" type="text/css" href="css/page-common.css">
+<link rel="stylesheet" type="text/css" href="css/app-common.css">
+<link href="Fonts/Roboto/font.css" rel="stylesheet">
+<link href="Fonts/Material Icons/font.css" rel="stylesheet">
 <link rel="icon" href="icon.png" />
-<browsertab color="#CD5C5C"></browsertab>
-<icon src="icon.svg"></icon>
-<title color="#CD5C5C">Framework.js</title>
+<link rel="logo" href="icon.svg" border="true" />
+<title color="#fff">Framework.js</title>
 <meta name="pehtml" content="true">
 <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1">
-<meta name="directory" content="rsc">
-<meta name="description" content="HTML5 Framework, Web Framework, Web UI Framework, Site Framework, App Framework" />
+<meta name="directory" content="css, js, img, snd">
+<meta name="description" content="Its a modern and responsive framework/template/theme thinked for apps and sites of the future. A unique framework with the same code, both for apps and sites.">
+<meta name="keywords" content="HTML5 Framework, Web Framework, Web UI Framework, Site Framework, App Framework">
 </head>
 <body>
-<header><a href="index.html"><logo>Framework.js</logo></a></header>
+<header><logo>Framework.js</logo></header>
 <div class="content">
 <article>
-<nopehtml><blockquote style="background:#D6D6D6;border-top:1px solid #E7534F;border-bottom:1px solid #E7534F;border-left:10px solid #E7534F;border-right:10px solid #E7534F;border-radius:20px;margin:0 auto;text-align:center"><div style="margin-top: -7px;margin-left: 5px;width: 80px;height: 80px;clear: left;float: left"><img src="rsc/warning.svg" width="80px" height="80px"/></div><h1 style="font-size:40px;margin-top:-5px;margin-bottom:-1px">Aviso</h1><br>Seu navegador não suporta sites construídos em PEHTML. Isso significa que esse site não será exibido corretamente em seu atual navegador. <br><a href="../boat">Baixe o navegador Internet Boat</a> para experimentar todo o poder do PEHTML e aproveitar todos os recursos desse site.<br/><p>Don't know what is PEHTML? Learn <a href="https://developers.plasmmer.com/PEHTML" target="blank">here</a>.</p></blockquote></nopehtml>
-<h1>O que é o Framework.js</h1>
-<p>É um framework/template/tema moderno e responsivo pensado para os aplicativos e sites do futuro. Um único framework com o mesmo código tanto para apps quanto para sites, porque creio que para o futuro a tendência é os aplicativos e sites serem a mesma coisa. Inicie rápidamente seu site/aplicativo com as ideias já prontas e se inspire para mais com a tecnologia e metáfora de design do Framework.js, ou reformule seu trabalho atual com uma pitada do futuro.</p>
+<nopehtml><blockquote style="background:#D6D6D6;border-top:1px solid #E7534F;border-bottom:1px solid #E7534F;border-left:10px solid #E7534F;border-right:10px solid #E7534F;border-radius:20px;margin:0 auto;text-align:center"><div style="margin-top: -7px;margin-left: 5px;width: 80px;height: 80px;clear: left;float: left"><img src="https://plasnerd.github.io/PEHTML/img/warning.svg" width="80px" height="80px"></div><h1 style="font-size:40px;margin-top:-5px;margin-bottom:-1px">Warning</h1><br>Your browser don't supports sites built with PEHTML. This means that this site could not be shown completly in your current browser. <br><img src="https://plasnerd.github.io/PEHTML/img/ib.svg" width="16" height="16"> <a href="../boat">Download the Internet Boat browser</a> to enjoy the whole power of PEHTML and all the features of this site.<br><p>Don't know what is PEHTML? Learn <a href="https://plasnerd.github.io/PEHTML/" target="blank">here</a>.</p></blockquote></nopehtml>
 
-<h1>Começando</h1><br/>
-<h2>Meta tag do PEHTML</h2>
-<p>Para avisar aos usuários e desenvolvedores de que seu site possui conteúdo em PEHTML, utilize essa meta tag:</p>
-<blockquote>&lt;meta name="pehtml" content="true"&gt;</blockquote>
+<h1 id="whatis"><i class="material-icons">info</i> What is Framework.js</h1>
+<p>Its a modern and responsive framework/template/theme thinked for apps and sites of the future. A unique framework with the same code, both for apps and sites.</p>
+<p>This idea came after I started creating PEHTML in 2012, so I changed the design and I liked it so much, then I thinked: "I'll use it in other sites". Also, Universav Poké app helped me to have this.</p>
+<p>Because I believe that for the future the tendence is apps and sites being the same thing. Kickly start your site/app with the already-done ideas and be inspired for more with the technology and design metaphor of Framework.js, or reformulate your current work with a little taste of the future.</p>
 
-<h2>Aviso para navegadores que não suportam o PEHTML</h2>
-<p>Como você observou anteriormente, uma mensagem é exibida no topo dessa página, avisando ao visitante que o navegador dele não suporta o PEHTML.<br>Para inserir uma mensagem como essa em seu site, utilize essa tag:</p>
-<blockquote>&lt;nopehtml&gt;Sua mensagem personalizada aqui&lt;/nopehtml&gt;<script language="JavaScript"> function abrir(URL) {  var width = 570;  var height = 420;  var left = 99;  var top = 99;  window.open(URL,'janela', 'width='+width+', height='+height+', top='+top+', left='+left+', scrollbars=yes, status=no, toolbar=no, location=no, directories=no, menubar=no, resizable=no, fullscreen=no'); } </script> <a href="javascript:abrir('nopehtml.html');"><div class="blockquotebtn blockquoteminibtn">Você pode usar o mesmo código utilizado nesta página!</div></a></blockquote>
+<h1 id="principles"><i class="material-icons">bookmark_border</i> Principles</h1>
+<h2><i class="material-icons">layers</i> Material</h2>
+<p>With borders and shadows, the elements looks more natural.</p>
 
-<h1>Tags estruturais</h1><br/>
-<p>Utilizando o script, a meta tag e a &lt;nopehtml&gt;, você já estará pronto para utilizar o PEHTML com maestria em seu site. Seguem abaixo todas as tags do PEHTML, com suas descrições e links para suas próprias páginas com maiores informações:</p>
-<h2>Abas</h2><span class="badge">BETA</span>
-<p>Com essas tags, você pode personalizar o fundo, a cor do texto e o ícone da aba de seu site.</p>
-<blockquote>&lt;icon src="icon.ico"&gt;&lt;/icon&gt;<span> Este é o ícone que aparecerá na aba, ao lado do título do site. Ao você arrastar a aba para a barra de tarefas, poderá fixar o site como um aplicativo. Para tal, esse ícone deverá estar no formato .SVG e ser responsivo. Os padrões do PEHTML suportam ícones animados e a API de ícones dinâmicos.</span><br>&lt;browsertab color="#CD5C5C"&gt;&lt;/browsertab&gt;<span> Marca a cor da aba do site. Quando o site for fixado como um aplicativo, essa será a cor da tile e da caixa de ferramentas do aplicativo. Caso não seja utilizada essa tag, a cor padrão será baseada na cor predominante do ícone do site.</span><br>&lt;title color= "#CD5C5C"&gt;Título do site&lt;/title&gt;<span> Marca a cor do título do site, caso o administrador queira fazer um contraste no design da aba. Quando o site for fixado como um aplicativo, essa será a cor do título da tile/caixa de ferramentas do aplicativo. Caso não seja utilizada essa tag, a cor padrão será preto/branco.</span><a href="customtab.html" target="blank"><div class="blockquotebtn">E aí, vai rolar um teste?</div></a></blockquote>
+<h2><i class="material-icons">book</i> Smooth reading</h2>
+<p>With good typography and flat elements, all this minimalism is combined to give a comfortable reading.</p>
 
-<h2>Logo</h2>
-<p>Essa tag estrutural serve para marcar o logo do cabeçalho principal do site.</p>
-<blockquote>&lt;logo/&gt;</blockquote>
+<h2><i class="material-icons">touch_app</i> Responsible</h2>
+<p>From a hover to a clicked effect, all elements responds and are adaptated to any device: since smartwatches to televisors. Also, if user wants, all elements can respond with sounds.</p>
 
-<h1>Tags meta</h1><br/>
-<h2>Tag encurtada para arquivos externos</h2><span class="badge">BETA</span>
-<p>Para carregar arquivos CSS e JS em massa - com uma simples tag - apontando para um diretório. Todos os arquivos desse local serão carregados no site.<br>O carregamento de recursos externos irá simplificar o código-fonte e agilizar o carregamento da página.</p>
-<blockquote>&lt;meta name="directory" content="folder"&gt;<span> Em <i>content</i>, o valor é o endereço/nome da pasta em que os arquivos se localizam.</span></blockquote>
+<h2><i class="material-icons">dashboard</i> Glass</h2>
+<p>In your app, elements looking like glass gives a more beauty experience.</p><h2><i class="material-icons">info</i> Meanings</h2>
+<p>All the effects of the elements gives a message to simplify the usage making it more intuitive.</p>
+<h2><i class="material-icons">chat</i> Communicable</h2>
+<p>Say better using Material Icons.</p>
+<h2><i class="material-icons">format_paint</i> Customizable</h2>
+<p>With tutorials and code variables, easily change the theme as you please.</p>
+<h2><i class="material-icons">add_circle</i> Multiplatform</h2>
+<p>Works in versions for Web/Cordova/Electron, Blogger, Wordpress, Tumblr, phpFox, CometChat and others! We have tutorials, so anyone can port Framework.js to other platforms.</p>
+<h2><i class="material-icons">description</i> With huge libs</h2>
+<p>Framework.js comes with jQuery and AngularJS.</p>
+<h2><i class="material-icons">highlight</i> Easy to implement</h2>
+<p>With built-in tutorials and a lovely community, anyone can start using Framework.js and do amazing things with it!</p>
 
-<h2>Rating</h2><span class="badge">BETA</span>
-<p>Uma forma de classificar a página quanto à censura, tanto em navegadores quanto em mecanismos de busca. Em sistemas operacionais/navegadores modernos, haverá integração com o Controle Parental e evitarão com que a educação dos pais seja violada ou que haja constrangimentos públicos. Essa tag também serve para livrar as pessoas de tópicos os quais ela deseja evitar ou para que sites emitam avisos sobre o conteúdo.<br>No PEHTML, 8 valores para o <i>content</i> foram acrescentados para essa tag, como segue abaixo:</p>
-<blockquote>&lt;meta name="rating" content="chock"&gt;<span> Informa quando um site possui conteúdo chocante (cenas fortes), não recomendado para pessoas mais frágeis sentimentalmente.</span> <span class="badge mini" title="Essa tag redireciona o site para uma página de aviso do navegador">REDIRECT</span> <span class="badge blue mini" title="Essa tag dependerá das configurações do usuário, incluindo o Controle Parental">PARENTAL CONTROL</span>
-<br>&lt;meta name="rating" content="porn"&gt;
-<span> Informa quando um site possui conteúdo pornográfico.</span> <span class="badge mini" title="Essa tag redireciona o site para uma página de aviso do navegador">REDIRECT</span> <span class="badge blue mini" title="Essa tag dependerá das configurações do usuário, incluindo o Controle Parental">PARENTAL CONTROL</span><br>&lt;meta name="rating" content="hentai"&gt;<span> Informa quando um site possui pornografia em mangá/animê.</span> <span class="badge mini" title="Essa tag redireciona o site para uma página de aviso do navegador">REDIRECT</span> <span class="badge blue mini" title="Essa tag dependerá das configurações do usuário, incluindo o Controle Parental">PARENTAL CONTROL</span><br>&lt;meta name="rating" content="ecchi"&gt;<br>&lt;meta name="rating" content="yaoi"&gt;<br>&lt;meta name="rating" content="yuri"&gt;<br>&lt;meta name="rating" content="humor"&gt; <span> Informa quando um site possui conteúdo humorístico/satírico.</span> <span class="badge mini" title="Essa tag exibe um aviso em forma de popup/notificação">POPUP</span>
-<br>&lt;meta name="rating" content="promiscuous"&gt; <span> Informa quando um site possui conteúdo devasso, com duplos-sentidos, palavrões e dentre outras coisas do gênero.</span> <span class="badge mini" title="Essa tag redireciona o site para uma página de aviso do navegador">REDIRECT</span> <span class="badge blue mini" title="Essa tag dependerá das configurações do usuário, incluindo o Controle Parental">PARENTAL CONTROL</span></blockquote>
+<h1 id="download"><i class="material-icons">file_download</i> Downloading</h1><ul class="tiled longcard"><a href="https://github.com/Org/Repo/releases/latest" target="blank"><li style="background: #00a185;"><div style="background:url(img/release-stable.png) 50px 7px;"><center><i class="material-icons">file_download</i></center>
+<p>Stable release (r1)</p></div></li></a>
+<!-- <a href="https://github.com/Org/Repo/releases/tag/" target="blank"><li style="background: #00a185;"><div style="background:url(img/release-pre.png) 50px 7px"><center><i class="material-icons">file_download</i></center> <p>Pre-release (?)</p></div></li></a> --></ul>
+<h1 id="instructions"><i class="material-icons">create</i> Starting</h1>
+<h2><i class="material-icons">archive</i> Extract</h2>
+<p>Open <code>framework.zip</code> and extract all the files from the <code>/upload</code> folder, to your site root.</p>
+<h2><i class="material-icons">code</i> Add to HTML</h2>
+<h3><i class="material-icons">settings_applications</i> Javascript</h3>
+<p>Add this after the <code>&lt;head&gt;</code> tag:</p><textarea onclick="this.focus();this.select()" readonly="readonly" style="margin:6px 41px;width: 392px;height: 28px;">&lt;script type="text/javascript" src="js/jquery.min.js"&gt;&lt;/script&gt;</textarea><p><b>Note</b>: the jQuery tag needs to be in top of any other javascript link.</p><p>And in any other part of the <code>&lt;head&gt;</code> tag, add the following:</p><textarea onclick="this.focus();this.select()" readonly="readonly" style="margin:6px 41px;width: 392px;height: 28px;">&lt;script type="text/javascript" src="js/page-common.js"&gt;&lt;/script&gt;</textarea><h3><i class="material-icons">format_paint</i> Stylesheets</h3><p>Designs, Roboto font and Material Icons.</p>
+<p>Add this in any place of the <code>&lt;head&gt;</code> tag:</p>
+<textarea onclick="this.focus();this.select()" readonly="readonly" style="margin: 6px 41px; width: 392px; height: 100px;">&lt;link rel="stylesheet" type="text/css" href="css/page-common.css"&gt;
+&lt;link rel="stylesheet" type="text/css" href="css/app-common.css"&gt;
+&lt;link href="Fonts/Roboto/font.css" rel="stylesheet"&gt;
+&lt;link href="Fonts/Material Icons/font.css" rel="stylesheet"&gt;</textarea><h3><i class="material-icons">check_circle</i> Done!</h3><p>Then you will see your site working with Framework.js and his design.</p><p><b>Note</b>: if you want to do it from scratch, extract the <code>/blank</code> folder from the <code>framework.zip</code> file.</p><h6><i class="material-icons">add_circle</i> To see sample codes and elements to insert in your project:<p></p></h6>
+<a href="elements.html"><button><i class="material-icons">folder</i><i class="material-icons">code</i> Explore the Elements!</button></a>
+<h2><i class="material-icons">format_paint</i> Personalize</h2>
+<p>Use a custom .css file to use your own style.</p><p>Inside your <code>/css</code> folder, there are two files: the <code>page-custom.css</code> and <code>app-custom.css</code>.</p><p>Open these files and, accourding to the style type (if is for <code>page</code> or for <code>app</code>), insert the CSS classes with your modifications.</p>
+<p><b>Note</b>: Don't forget to use the <code>!important</code> after every value.</p><h3><i class="material-icons">space_bar</i> Navbar</h3><p>This is like the hat of your app/site. Match it to your theme?</p>
+<p>Open the <code>page-custom.css</code> file and insert the following:</p><textarea onclick="this.focus();this.select()" readonly="readonly" style="margin:6px 41px;width: 392px;height: 44px;">.header, header {
+    background: #00A185!important;
+}</textarea><p>Then change <code><b>#00A185</b></code> to your <b>background color</b>.</p>
+<h3><i class="material-icons">photo_size_select_actual</i> Logo</h3>
+<p>This is the brand of your project.</p>
+<p>If you want to use a image as your logo, open the <code>page-custom.css</code> file and insert the following: </p>
+<textarea onclick="this.focus();this.select()" readonly="readonly" style="margin:6px 41px;width: 392px;height: 70px;">.logo,logo {
+    width: 315px;
+    background:url(../img/logotype.svg) no-repeat no-repeat 10px 15px
+}</textarea>
+<p>Then change <code><b>../img/logotype.svg</b></code> to your file <b>path/name</b>. and <code>315px</code> to your <b>logo width</b>.</p>
 
-<h1>Mais</h1><br/>
-<h2>Selo do PEHTML</h2>
-<p>Essa tag estrutural serve para marcar o logo do cabeçalho principal do site.</p>
-<blockquote>&lt;logo/&gt;</blockquote>
+<h3><i class="material-icons">touch_app</i> Selection</h3><p>If you want to personalize the colors of the selection, open the <code>page-custom.css</code> file and insert the following:</p><textarea onclick="this.focus();this.select()" readonly="readonly" style="margin: 6px 41px;width: 392px;height: 58px;">::selection {
+    background: #00A185!important;
+    color: #fff!important;
+}</textarea><p>Then change <code><b>#00A185</b></code> to your <b>background color</b> and/or <code><b>#fff</b></code> to your <b>text color</b>.</p><h3><i class="material-icons">format_color_text</i> Heading 1</h3><p>As the most important of all headings, <code>&lt;h1&gt;</code> have the theme color in FrameworkJS.</p>
+<p>If you want to personalize it, open the <code>page-custom.css</code> file and insert the following:</p><textarea onclick="this.focus();this.select()" readonly="readonly" style="margin: 6px 41px;width: 392px;height: 44px;">.h1, h1 {
+    color: #00A185!important;
+}</textarea><p>Then change <code><b>#00A185</b></code> to your <b>text color</b>.</p><h3><i class="material-icons">menu</i> Menu</h3><p>If you want to personalize the icon/text color and the hover effect background, open the <code>page-custom.css</code> file and insert the following:</p><textarea onclick="this.focus();this.select()" readonly="readonly" style="margin: 6px 41px;width: 392px;height: 90px;">.navmenu {
+    color: #00A185!important;
+}
+.navmenu ul &gt; li:hover {
+    background: #00A185!important;
+}</textarea><p>Then change <code><b>#00A185</b></code> to your <b>text color</b>.</p>
+<p><b>Note</b>: you can also change the menu's background and use different colors in icon/text and in the hover/active effects.</p>
+<h3><i class="material-icons">menu</i> Tab menu</h3>
+<p>If you want to personalize the selected tab and active effect color in tab menus, open the <code>page-custom.css</code> file and insert the following:</p>
+<textarea onclick="this.focus();this.select()" readonly="readonly" style="margin: 6px 41px;width: 392px;height: 75px;">ul.tabs{border-bottom:1px solid #00A185}
+ul.tabs li a:active{color:#00A18580;border-bottom:4px solid #00A18580}
+ul.tabs li.current a{color:#00A185;border-bottom:4px solid #00A185}</textarea>
+<p>Then change <code><b>#00A185</b></code> to your color.</p>
+<p><b>Note</b>: in the <code>:active</code> state, there is a <code>80</code> after the <code>#00A185</code>. Please don't remove it if you want the transparency effects.</p>
+<h3><i class="material-icons">color_lens</i> .color</h3>
+<p>Open the <code>page-custom.css</code> file and insert the following:</p>
+<textarea onclick="this.focus();this.select()" readonly="readonly" style="margin: 6px 41px;width: 392px;height: 70px;">button.color{background:#00A185;color:#fff;font-weight:bold;padding:10px;font-size:16px}
+button.color:hover{background:#fff;color:#00A185}
+
+h2.color{color:#00A185}
+h3.color{color:#00A185}
+h4.color{color:#00A185}
+h5.color{color:#00A185}
+h6.color{color:#00A185}
+
+.badge.color{background-color:#00A185}
+
+p.color{color:#00A185}
+
+span.color{color:#00A185}</textarea>
+<p>Then change <code><b>#00A185</b></code> to your color.</p>
+<h3><i class="material-icons">space_bar</i> Footer</h3>
+<p>Open the <code>page-custom.css</code> file and insert the following:</p>
+<textarea onclick="this.focus();this.select()" readonly="readonly" style="margin:6px 41px;width: 392px;height:16px">.footer,footer{background:#00A185}</textarea>
+<p>Then change <code><b>#00A185</b></code> to your color.</p><h3><i class="material-icons">add_circle</i> Other customizations</h3><h6><i class="material-icons">color_lens</i> Change tab/bar color</h6>
+<p>Thanks to our support to Progressive Web Apps, you can customize the color that will appear in your site's tab/bar/others. This is called theme-color.</p><p>Open the <code>manifest.json</code> of your project, so you will find <code>"theme_color": "#00A185"</code>. Change <code>#00A185</code> to your theme color.</p><p><b>Note</b>: you can also change the <code>"background_color": "#efefef"</code>, changing <code>#efefef</code> by the color you use in your project's background.</p><button><i class="material-icons">assignment_turned_in</i> Tutorials for PWA are comming</button>
+<h6><i class="material-icons">code</i> Personalize the PEHTML of your project</h6><p>Change things such as your brand new favicon, tab title's color, and others.</p>
+<a href="http://plasnerd.github.io/PEHTML/" target="blank"><button><i class="material-icons">code</i> Visit PEHTML!</button></a>
+<h6><i class="material-icons">tag_faces</i> Use icons</h6>
+<p>Framework.js includes Material Icons. You can use them by inserting HTML tags.</p><a href="https://material.io/icons/" target="blank"><button><i class="material-icons">folder</i> Explore Material Icons!</button></a>
+<h1 id="users"><i class="material-icons">view_list</i> Using Framework.js</h1><h2><i class="material-icons">web</i> Sites</h2>
+
+<ul class="tiled longcard"><a href="https://plasnerd.github.io/" target="blank"><li style="background: #602a80;" title="Plasnerd"><div style="
+    background: url(img/showcase/plasnerd.png) no-repeat no-repeat 128px 7px;
+    background-size: 55px;
+"></div></li></a>
+
+<a href="https://plasnerd.github.io/PEHTML/" target="blank"><li style="background: #295596;" title="Plasmmer Experimental HTML"><div style="
+    background: url(img/showcase/pehtml.svg) no-repeat no-repeat 12px 20px;
+"></div></li></a>
+<a href="https://plascrypto.github.io/" target="blank"><li style="background: #f7931a;" title="Plascrypto"><div style="
+    background: url(img/showcase/plasnerd.png) no-repeat no-repeat 128px 7px;
+    background-size: 55px;
+"></div></li></a><a href="https://gittex.github.io/" target="blank"><li style="background: #fff;" title="Gittex Crypto Exchange"><div style="
+    background: url(img/showcase/gittex.png) no-repeat no-repeat 45px 5px;
+    background-size: 205px;
+"></div></li></a>
+<a href="http://ultracreator.com" target="blank"><li style="background: red;" title="UltraCreator"><div style="
+    background: url(img/showcase/ultracreator.png) no-repeat no-repeat 50px 16px;
+    background-size: 215px;
+"></div></li></a></ul><h2><i class="material-icons">apps</i> Apps</h2><ul class="tiled longcard"><!-- <a href="http://plasnerd.github.io/PEHTML/" target="blank"><li style="background: #ffdc1e;" title="Universav Poké"><div style="
+    background: url(img/showcase/universavpoke.png) no-repeat no-repeat 50px 7px;
+"></div></li></a> -->
+<a href="http://plasnerd.github.io/PEHTML/" target="blank"><li style="background: #ffe078;" title="Notestick"><div style="
+    background: url(img/showcase/notestick.png) no-repeat no-repeat 128px 7px;
+    background-size: 55px;
+"></div></li></a></ul><h1><i class="material-icons">receipt</i> Seals and badges</h1><h2>Seal</h2>
+<img src="img/seal-1.png" width="167px" height="94px" style="-webkit-user-drag:element">
+<br><textarea onclick="this.focus();this.select()" readonly="readonly" style="margin:6px 41px;width: 392px;height: 70px;">&lt;a href="https://plasnerd.github.io/Framework.js/" target="blank"&gt;&lt;img src="https://plasnerd.github.io/Framework.js/img/seal-1.png" width="167px" height="94px" style="-webkit-user-drag:element"&gt;&lt;/a&gt;</textarea><h2>Badge</h2><img src="https://img.shields.io/badge/built%20in-Framework.js%20(r1)-00A185.svg" style="-webkit-user-drag:element">
+<br><textarea onclick="this.focus();this.select()" readonly="readonly" style="margin:6px 41px;width: 392px;height: 58px;">&lt;a href="https://plasnerd.github.io/Framework.js/" target="blank"&gt;&lt;img src="https://img.shields.io/badge/built%20in-Framework.js%20(r1)-00A185.svg"&gt;&lt;/a&gt;</textarea>
+
 </article>
 <comments>
-<h1>Comments</h1> <span class="badge"><a href="http://developers.plasmmer.com/pehtml#disqus_thread"></a></span>
-<blockquote><div id="disqus_thread"></div></blockquote>
+<h1 id="comments"><i class="material-icons">comment</i> Comments <span class="badge"><a href="https://plasnerd.github.io/Framework.js#disqus_thread">Loading...</a></span></h1>
+<blockquote>
+<div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://framework-js.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                            
+</blockquote>
 </comments>
 <div class="footer-shadow"></div>
 <footer>
-<div class="social-icons"><a href="https://github.com/DaniellMesquita/PEHTML" target="blank"><img src="rsc/github.svg" width="40px" height="40px" title="See first the news and improve PEHTML in GitHub" alt="GitHub"/></a><a href="https://facebook.com/PlasmmerDevelopers" target="blank"><img src="rsc/facebook.svg" width="40px" height="40px" title="Like us and receive latest news feed about PEHTML progress and other development tools" alt="Facebook"/></a><a href="https://twitter.com/PlasmmerDevelopers" target="blank"><img src="rsc/twitter.svg" width="40px" height="40px" title="Follow us and receive latest news feed about PEHTML progress and other development tools" alt="Twitter"></a><a href="https://ask.fm/PlasmmerDevelopers" target="blank"><img src="rsc/ask.svg" width="40px" height="40px" title="Follow/Ask us and receive latest answers for PEHTML and other development tools" alt="Ask.fm"></a><a href="https://plasmmer.deviantart.com" target="blank"><img src="rsc/deviantart.svg" width="40px" height="40px" title="Follow us and receive latest backgrounds, designs and apps" alt="Deviantart"></a></div><div class="social-buttons"></div>
-<copyright><center>Importante: O PEHTML não é uma versão nova do HTML, e sim tags experimentais criadas pela Plasmmer com o intuito de facilitar, simplificar, complementar e agilizar a Web. O PEHTML não pertence e nem possui ligações com a <a href="http://www.w3.org/" target="blank">W3C</a>.</center></copyright></footer>
+<center>Last update in 17/04/2018 at 14:51</center><img src="img/seal-1.png" width="167px" height="94px" style="-webkit-user-drag:element;margin-right: 5px;"><a href="https://plasnerd.github.io/PEHTML/" target="blank" class="no-opacity"><img src="https://plasnerd.github.io/PEHTML/img/seal-2.png" width="167px" height="94px" style="-webkit-user-drag:element"></a>
+<div class="social-icons"><a href="https://github.com/" target="blank"><img src="img/social/github.svg" width="40px" height="40px" title="See first the news and improve PEHTML in GitHub" alt="GitHub"></a><a href="https://facebook.com/" target="blank"><img src="img/social/facebook.svg" width="40px" height="40px" title="Like us and receive latest news feed about PEHTML progress and other development tools" alt="Facebook"></a><a href="https://twitter.com/" target="blank"><img src="img/social/twitter.svg" width="40px" height="40px" title="Follow us and receive latest news feed about PEHTML progress and other development tools" alt="Twitter"></a><a href="https://ask.fm/" target="blank"><img src="img/social/ask.svg" width="40px" height="40px" title="Follow/Ask us and receive latest answers for PEHTML and other development tools" alt="Ask.fm"></a><a href="https://.deviantart.com" target="blank"><img src="img/social/deviantart.svg" width="40px" height="40px" title="Follow us and receive latest backgrounds, designs and apps" alt="Deviantart"></a></div><div class="social-buttons"></div>
+<copyright><center>(c) 2014-2018 <a href="https://plasmmer.github.io/" target="blank"><small>Plasmmer</small></a>. Thanks to <b>Jesus</b>, our Lord.</center></copyright>
+</footer>
 </div>
-<script type="text/javascript" src="rsc/jquery.min.js"></script>
-<script type="text/javascript">
-    /* * * CONFIGURATION VARIABLES * * */
-    var disqus_shortname = 'pehtml';
-    
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+<script src="js/app.js" async></script>
+<script id="dsq-count-scr" src="//framework-js.disqus.com/count.js" async></script>
 </body>
 </html>

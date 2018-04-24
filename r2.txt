@@ -1,0 +1,26 @@
+More human and lovely Framework.js
+Description of each element
+Improve header infos
+fix bug in mobile tiled lists
+new features for mobile fixed menu
+New badge colors
+Check/Radios buttons
+Framework.js build app
+Seals hosted in external server
+Sticky button in textbox
+Citation blockquotes
+menu and logo badges
+User button
+browser-like tab menus
+dropdown menus
+
+P Kit
+
+switches
+
+custom support
+smartwatch-ready
+from left/center/right animations in tab menu
+transitions
+porting tutorials
+electron works (such as frameless windows)
