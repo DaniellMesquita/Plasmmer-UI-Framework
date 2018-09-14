@@ -5,6 +5,7 @@
  "cloned_from": "1HeLLo4uzjaLetFx6NH3PMwFP3qbRbTf3D",
  "description": "Easy, lightweight, adaptive and beauty framework for sites/apps of future.",
  "favicon": "icon.png",
+ "cloneable": "true",
  "files": {
   ".git/COMMIT_EDITMSG": {
    "sha512": "aaac9ef6f86e51439e726f902ec84a53acf4d76b547f60174e1b51eb34579da8",
