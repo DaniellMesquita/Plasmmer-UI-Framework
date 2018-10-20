@@ -4,12 +4,14 @@
 <title color="#fff">Framework.js</title>
 <meta charset="utf-8">
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta content="width=device-width,initial-scale=1,minimal-ui" name="viewport">
 <link rel="icon" href="icon.png" />
 <link rel="logo" href="icon.svg" border="true" />
 <base href="" target="_top" id="base">
 
 <script>base.href = document.location.href.replace("/media", "").replace("index.html", "").replace(/[&?]wrapper=False/, "").replace(/[&?]wrapper_nonce=[A-Za-z0-9]+/, "")</script>
-<script type="text/javascript" src="js/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/vue-material@beta/dist/vue-material.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/vue-material@beta/dist/theme/default.css">
 <zeronet><script type="text/javascript" src="js/ZeroFrame.js"></script>
 <script type="text/javascript" src="plugins/ZeroDevLib/ZeroPage.js"></script></zeronet>
 <script type="text/javascript" src="js/page-common.js"></script>
@@ -19,13 +21,12 @@
 <link href="Fonts/Material Icons/font.css" rel="stylesheet">
 <zeronet><link href="Fonts/Text Me One/font.css" rel="stylesheet"></zeronet>
 <meta name="pehtml" content="true">
-<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1">
 <meta name="directory" content="css, js, img, snd">
 <meta name="description" content="Its a modern and responsive framework/template/theme thinked for apps and sites of the future. A unique framework with the same code, both for apps and sites.">
-<meta name="keywords" content="HTML5, Framework, Web Framework, Web UI Framework, Site Framework, App Framework">
+<meta name="keywords" content="HTML5 Framework, Web Framework, Web UI Framework, Site Framework, App Framework">
 </head>
 <body id="body">
-
+<div id="app">
 <header><logo>Framework.js <span class="badge">r1</span></logo> <nav>
 <ul style="
     overflow: hidden!important;
@@ -34,7 +35,7 @@
 
 <zeronet><a><li onclick="clone()"><div><i class="material-icons">add_circle</i></div><p>Create your own zite!</p></li></a>
 <a href="http://127.0.0.1:43110/14AYuS7E5gtiAaJKo1HMXnZnGUtiymb6Rt/" target="blank"><li><div><i class="material-icons">book</i></div><p>Blog</p></li></a>
-<a href="http://127.0.0.1:43110/1DS3W1EqALVYyyWoKxFPezffx2V6e8gzTU" target="blank"><li><div><i class="material-icons">comment</i></div><p>Forum</p></li></a>
+<a href="http://127.0.0.1:43110/1FMWKFweT5ADXajRJatNdyrdchGqyZzKeD/" target="blank"><li><div><i class="material-icons">comment</i></div><p>Forum</p></li></a>
 <a href="http://127.0.0.1:43110/Talk.ZeroNetwork.bit/?Topic:1536113472_15hL2gR4oCSgKBbndn3MxY8Hc5xoy1vqCe/FrameworkJS+Discussion+topic" target="blank"><li><div><i class="material-icons">comment</i></div><p>Discussion topic</p></li></a>
 <a href="http://127.0.0.1:43110/Mail.ZeroNetwork.bit/?to=daniell" target="blank"><li><div><i class="material-icons">mail</i></div><p>Contact</p></li></a></zeronet>
 </ul>
@@ -57,6 +58,8 @@
     <li>ZeroDevLib (thanks to Imachug)</li>
     <li>Can prompt user to clone your site (thanks to Daniell and Imachug)</li>
     <li>Supports hashes on the URL (thanks to Krixano and Daniell)</li>
+	<li>Get rid of jQuery (thanks to ZeroLSTN)</li>
+	<li>Detect if ZeroNet theme is dark or light (thanks to ZeroLSTN)</li>
 </ul>
 <p style="color:#8e9194">Proxies are on clearnet, but we consider as ZeroNet when detecting the platform.</p>
 <p style="font-family:'Text Me One';color:#8e9194">Likes this font? Just put <code>&lt;link href="Fonts/Text Me One/font.css" rel="stylesheet"&gt;</code> on your HTML and <code>font-family: 'Text Me One';</code> in your CSS.</p></div></zeronet>
@@ -268,5 +271,17 @@ s.setAttribute('data-timestamp', +new Date());
 </footer>
 </div>
 <clearnet><script id="dsq-count-scr" src="//framework-js.disqus.com/count.js" async></script></clearnet>
+</div>
+
+  <script type="text/javascript" src="plugins/UmbrellaJS/umbrella.min.js"></script>
+  <script type="text/javascript" src="plugins/VueJS/vue.js"></script>
+  <script src="https://unpkg.com/vue-material@beta"></script>
+  <script>
+      Vue.use(VueMaterial.default)
+
+      new Vue({
+        el: '#app'
+      })
+    </script>
 </body>
 </html>

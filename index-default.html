@@ -4,15 +4,17 @@
 <title color="">New Framework.js project</title>
 <meta charset="utf-8">
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta content="width=device-width,initial-scale=1,minimal-ui" name="viewport">
 <link rel="icon" href="icon.png" />
 <link rel="logo" href="icon.svg" border="true" />
 <base href="" target="_top" id="base">
 
 <script>base.href = document.location.href.replace("/media", "").replace("index.html", "").replace(/[&?]wrapper=False/, "").replace(/[&?]wrapper_nonce=[A-Za-z0-9]+/, "")</script>
-<script type="text/javascript" src="js/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/vue-material@beta/dist/vue-material.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/vue-material@beta/dist/theme/default.css">
 <zeronet><script type="text/javascript" src="js/ZeroFrame.js"></script>
 <script type="text/javascript" src="plugins/ZeroDevLib/ZeroPage.js"></script></zeronet>
-<script type="text/javascript" src="js/app-common.js"></script>
+<script type="text/javascript" src="js/page-common.js"></script>
 <link rel="stylesheet" type="text/css" href="css/page-common.css">
 <link rel="stylesheet" type="text/css" href="css/app-common.css">
 <link rel="stylesheet" type="text/css" href="css/page-custom.css">
@@ -21,12 +23,12 @@
 <link href="Fonts/Material Icons/font.css" rel="stylesheet">
 <zeronet><link href="Fonts/Text Me One/font.css" rel="stylesheet"></zeronet>
 <meta name="pehtml" content="true">
-<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1">
 <meta name="directory" content="css, js, img, snd">
 <meta name="description" content="">
 <meta name="keywords" content="">
 </head>
 <body id="body">
+<div id="app">
 <header><logo>New Framework.js project</logo></header>
 <div class="content">
 <article>
@@ -99,5 +101,17 @@ page = new Page()
 </footer>
 </div>
 <zeronet><script type="text/javascript" src="js/ZeroFrame.js"></script></zeronet>
+</div>
+
+  <script type="text/javascript" src="plugins/UmbrellaJS/umbrella.min.js"></script>
+  <script type="text/javascript" src="plugins/VueJS/vue.js"></script>
+  <script src="https://unpkg.com/vue-material@beta"></script>
+  <script>
+      Vue.use(VueMaterial.default)
+
+      new Vue({
+        el: '#app'
+      })
+    </script>
 </body>
 </html>

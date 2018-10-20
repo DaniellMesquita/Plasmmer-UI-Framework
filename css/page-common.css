@@ -55,7 +55,7 @@ h1 .badge{font-size:40px;top:-14px}h2 .badge{font-size:35px;top:-12px}h3 .badge{
 .badge.blue{background-color:#5b6ed6}.badge.green{background-color:#53a93f}.badge.color{background-color:#00A185;color:#fff}
 .badge.mini{font-size:7px;-webkit-user-select:none;-moz-user-select:none;user-select:none}
 
-.p,p{color:#585b55;font-size:14px;user-select:text!important}
+.p,p{color:#585b55;font-size:16px;user-select:text!important}
 p.color{color:#00A185}
 
 .span,span{color:#888;font-size:12px}
