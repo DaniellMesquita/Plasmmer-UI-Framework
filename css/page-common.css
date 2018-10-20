@@ -28,8 +28,8 @@ a .badge{color:#fff!important;text-decoration:none}
 a button{text-decoration:none}
 
 ::selection {
-    background: #00A185;
-    color: #fff;
+    background: #00A185!important;
+    color: #fff!important;
 }
 
 .full-size{width:100%!important;height:100%!important}
