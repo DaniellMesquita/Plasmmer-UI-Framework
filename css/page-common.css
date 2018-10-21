@@ -199,9 +199,9 @@ header nav ul li {
     position: relative;
     color: #fff!important;
     padding: 0 5px 1px 5px;
-	-moz-user-select: none;
-	-webkit-user-select: none;
-	user-select: none;
+	-moz-user-select: none!important;
+	-webkit-user-select: none!important;
+	user-select: none!important;
 }
 
 header nav ul li:hover {
@@ -241,6 +241,9 @@ header nav ul li p {
     height: auto;
     float: none;
     color: #fff;
+	-moz-user-select: none!important;
+	-webkit-user-select: none!important;
+	user-select: none!important;
 }
 
 header nav ul li div i {
