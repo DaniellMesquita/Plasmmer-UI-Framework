@@ -176,6 +176,10 @@ header nav {
     margin-right: 20px;
 }
 
+header nav zeronet {
+    margin-right: 64px;
+}
+
 header nav ul {
     overflow: auto;
     padding: 0;
@@ -184,6 +188,9 @@ header nav ul {
 
 header nav ul a {
     text-decoration: none;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	user-select: none;
 }
 
 header nav ul li {
