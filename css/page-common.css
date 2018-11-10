@@ -35,18 +35,18 @@ a button{text-decoration:none}
 .full-size{width:100%!important;height:100%!important}
 .no-opacity{opacity:1!important}
 
-.p,p{color:#585b55;font-size:16px;user-select:text!important}
+.p,p{color:#585b55;font-size:16px;user-select:text!important;-moz-user-select:text!important}
 p.color{color:#00A185}
 
 .span,span{color:#888;font-size:12px}
 span.color{color:#00A185}
 
-.h1, h1{font-size:80px;color:#00A185;margin:25px 0px 0px 0px;user-select:text!important}
-.h2, h2{font-size:70px;color:#333;margin:25px 0px 0px 0px;user-select:text!important}
-.h3, h3{font-size:60px;color:#333;opacity:0.9;margin:25px 0px 0px 0px;user-select:text!important}
-.h4, h4{font-size:50px;color:#333;margin:25px 0px 0px 0px;user-select:text!important}
-.h5, h5{font-size:40px;color:#333;opacity: 0.7;margin:25px 0px 0px 0px;user-select:text!important}
-.h6, h6{font-size:30px;color:#333;margin:25px 0px 0px 0px;user-select:text!important}
+.h1, h1{font-size:80px;color:#00A185;margin:25px 0px 0px 0px;user-select:text!important;-moz-user-select:text!important}
+.h2, h2{font-size:70px;color:#333;margin:25px 0px 0px 0px;user-select:text!important;-moz-user-select:text!important}
+.h3, h3{font-size:60px;color:#333;opacity:0.9;margin:25px 0px 0px 0px;user-select:text!important;-moz-user-select:text!important}
+.h4, h4{font-size:50px;color:#333;margin:25px 0px 0px 0px;user-select:text!important;-moz-user-select:text!important}
+.h5, h5{font-size:40px;color:#333;opacity: 0.7;margin:25px 0px 0px 0px;user-select:text!important;-moz-user-select:text!important}
+.h6, h6{font-size:30px;color:#333;margin:25px 0px 0px 0px;user-select:text!important;-moz-user-select:text!important}
 
 h2.color{color:#00A185}
 h3.color{color:#00A185}
@@ -54,14 +54,14 @@ h4.color{color:#00A185}
 h5.color{color:#00A185}
 h6.color{color:#00A185}
 
-.badge{background-color:#e7534f;padding:3px 8px;border-radius:3px;color:#fff;position:relative;margin-left:8px;display:inline;user-select:text!important}
+.badge{background-color:#e7534f;padding:3px 8px;border-radius:3px;color:#fff;position:relative;margin-left:8px;display:inline;user-select:text!important;-moz-user-select:text!important}
 .badge a{color:#fff!important}
 comments h1 .badge a{text-decoration:none}
 h1 .badge{font-size:40px;top:-14px}h2 .badge{font-size:35px;top:-12px}h3 .badge{font-size:30px;top:-12px}h4 .badge{font-size:25px;top:-10px}h5 .badge{font-size:20px;top:-8px}h6 .badge{font-size:15px;top:-6px}
 .badge.blue{background-color:#5b6ed6}.badge.green{background-color:#53a93f}.badge.color{background-color:#00A185;color:#fff}
 .badge.mini{font-size:7px;-webkit-user-select:none;-moz-user-select:none;user-select:none}
 
-.blockquote,blockquote{padding:10px;background:#d6d6d6;color:#585b55;border:1px solid transparent;font-size:14px;user-select:text!important}
+.blockquote,blockquote{padding:10px;background:#d6d6d6;color:#585b55;border:1px solid transparent;font-size:14px;user-select:text!important;-moz-user-select:text!important}
 .blockquote,blockquote:hover{border:1px solid #333}
 .blockquote,blockquote:active{background:transparent}
 
@@ -75,6 +75,7 @@ code {
     padding: 5px 5px 5px 5px;
     font-size: 11px;
     user-select:text!important;
+    -moz-user-select:text!important;
     white-space: nowrap;
 }
 
@@ -88,7 +89,7 @@ code {
 .input,input:hover{background:#d6d6d6;border:1px solid transparent}
 .input,input:focus{background:#fff;color:#000}
 
-.textarea,textarea{display:inline;-webkit-margin-before:1em;-webkit-margin-after:1em;-webkit-margin-start:40px;-webkit-margin-end:40px;padding:10px;background:#d6d6d6;border:1px solid #333;color:#585b55;font-size:12px;user-select:text!important;box-sizing:initial}
+.textarea,textarea{display:inline;-webkit-margin-before:1em;-webkit-margin-after:1em;-webkit-margin-start:40px;-webkit-margin-end:40px;padding:10px;background:#d6d6d6;border:1px solid #333;color:#585b55;font-size:12px;user-select:text!important;-moz-user-select:text!important;box-sizing:initial}
 .textarea, textarea:hover{border:1px solid transparent}
 .textarea, textarea:focus{background:transparent}
 
@@ -122,6 +123,7 @@ button.sticky {
     margin-top: 25px;
     margin-bottom: -30px;
     user-select: none !important;
+    -moz-user-select:text!important;
     display: block;
 }
 button.sticky.left {
@@ -136,7 +138,7 @@ button.sticky.left {
 img{-webkit-user-drag:none}
 div.caption{border:1px solid #333;padding:3px;max-width:100%;display:inline-block;height:auto}
 div.caption img{display:block;padding:0;margin:0;width:100%;height:auto}
-div.caption span{color:#333;font-size:14px;user-select:text!important}
+div.caption span{color:#333;font-size:14px;user-select:text!important;-moz-user-select:text!important}
 img.align-left, .img-wrap.align-left{float:left;margin:0 10px 5px 0}
 img.align-right, .img-wrap.align-right{float:right;margin:0 0 5px 10px}
 img.full-width{clear:both;display:block;width:100%;height:auto;margin:0 0 10px 0}
@@ -189,9 +191,9 @@ header nav ul {
 
 header nav ul a {
     text-decoration: none;
-	-moz-user-select: none;
-	-webkit-user-select: none;
-	user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
 }
 
 header nav ul li {
@@ -199,9 +201,9 @@ header nav ul li {
     position: relative;
     color: #fff!important;
     padding: 0 5px 1px 5px;
-	-moz-user-select: none!important;
-	-webkit-user-select: none!important;
-	user-select: none!important;
+    -moz-user-select: none!important;
+    -webkit-user-select: none!important;
+    user-select: none!important;
 }
 
 header nav ul li:hover {
@@ -241,9 +243,9 @@ header nav ul li p {
     height: auto;
     float: none;
     color: #fff;
-	-moz-user-select: none!important;
-	-webkit-user-select: none!important;
-	user-select: none!important;
+    -moz-user-select: none!important;
+    -webkit-user-select: none!important;
+    user-select: none!important;
 }
 
 header nav ul li div i {
@@ -301,6 +303,7 @@ header nav ul li div i {
     color: inherit!important;
     font-size: inherit!important;
     user-select: none!important;
+    -moz-user-select:text!important
 }
 .navmenu ul > li:hover {
     background: #00A185;
