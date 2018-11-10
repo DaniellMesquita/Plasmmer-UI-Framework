@@ -4,14 +4,17 @@
 <title color="#fff">Framework.js</title>
 <meta charset="utf-8">
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-<meta content="width=device-width,initial-scale=1,minimal-ui" name="viewport">
+<meta content="width=device-width,initial-scale=1,minimal-ui,shrink-to-fit=no" name="viewport">
 <link rel="icon" href="icon.png" />
 <link rel="logo" href="icon.svg" border="true" />
 <base href="" target="_top" id="base">
 
 <script>base.href = document.location.href.replace("/media", "").replace("index.html", "").replace(/[&?]wrapper=False/, "").replace(/[&?]wrapper_nonce=[A-Za-z0-9]+/, "")</script>
-  <link rel="stylesheet" href="https://unpkg.com/vue-material@beta/dist/vue-material.min.css">
-  <link rel="stylesheet" href="https://unpkg.com/vue-material@beta/dist/theme/default.css">
+<!--  <link rel="stylesheet" href="https://unpkg.com/vue-material@beta/dist/vue-material.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/vue-material@beta/dist/theme/default.css">-->
+<script type="text/javascript" src="plugins/jQuery/jquery.min.js"></script>
+<script type="text/javascript" src="plugins/Popper.js/popper.min.js"></script>
+<script type="text/javascript" src="plugins/Bootstrap/bootstrap.min.js"></script>
 <zeronet><script type="text/javascript" src="js/ZeroFrame.js"></script>
 <script type="text/javascript" src="plugins/ZeroDevLib/ZeroPage.js"></script></zeronet>
 <script type="text/javascript" src="js/page-common.js"></script>
@@ -34,10 +37,10 @@
 <a href="elements.html"><li><div><i class="material-icons">widgets</i></div><p>Elements</p></li></a>
 
 <zeronet><a><li onclick="clone()"><div><i class="material-icons">add_circle</i></div><p>Create your own zite!</p></li></a>
-<a href="http://127.0.0.1:43110/14AYuS7E5gtiAaJKo1HMXnZnGUtiymb6Rt/" target="blank"><li><div><i class="material-icons">book</i></div><p>Blog</p></li></a>
-<a href="http://127.0.0.1:43110/1FMWKFweT5ADXajRJatNdyrdchGqyZzKeD/" target="blank"><li><div><i class="material-icons">comment</i></div><p>Forum</p></li></a>
-<a href="http://127.0.0.1:43110/Talk.ZeroNetwork.bit/?Topic:1536113472_15hL2gR4oCSgKBbndn3MxY8Hc5xoy1vqCe/FrameworkJS+Discussion+topic" target="blank"><li><div><i class="material-icons">comment</i></div><p>Discussion topic</p></li></a>
-<a href="http://127.0.0.1:43110/Mail.ZeroNetwork.bit/?to=daniell" target="blank"><li><div><i class="material-icons">mail</i></div><p>Contact</p></li></a></zeronet>
+<a href="http://127.0.0.1:43110/14AYuS7E5gtiAaJKo1HMXnZnGUtiymb6Rt/" target="_blank"><li><div><i class="material-icons">book</i></div><p>Blog</p></li></a>
+<a href="http://127.0.0.1:43110/1FMWKFweT5ADXajRJatNdyrdchGqyZzKeD/" target="_blank"><li><div><i class="material-icons">comment</i></div><p>Forum</p></li></a>
+<a href="http://127.0.0.1:43110/Talk.ZeroNetwork.bit/?Topic:1536113472_15hL2gR4oCSgKBbndn3MxY8Hc5xoy1vqCe/FrameworkJS+Discussion+topic" target="_blank"><li><div><i class="material-icons">comment</i></div><p>Discussion topic</p></li></a>
+<a href="http://127.0.0.1:43110/Mail.ZeroNetwork.bit/?to=daniell" target="_blank"><li><div><i class="material-icons">mail</i></div><p>Contact</p></li></a></zeronet>
 </ul>
 </nav></header>
 <div class="content">
@@ -66,7 +69,7 @@
 
 <h1 id="whatis"><i class="material-icons">info</i> What is Framework.js</h1>
 <p>Its a modern and responsive framework/template/theme thinked for apps and sites of the future. A unique framework with the same code, both for apps and sites.</p>
-<p>This idea came after I started creating PEHTML in 2012, so I changed the design and I liked it so much, then I thinked: "I'll use it in other sites". Also, Universav Poké app helped me to have this.</p>
+<p>This idea came after I started creating PEHTML in 2012, so I changed the design and I liked it so much, then I thought: "I'll use it in other sites". Also, Universav Poké app helped me to have this.</p>
 <p>Because I believe that for the future the tendence is apps and sites being the same thing. Kickly start your site/app with the already-done ideas and be inspired for more with the technology and design metaphor of Framework.js, or reformulate your current work with a little taste of the future.</p>
 
 <h1 id="principles"><i class="material-icons">bookmark_border</i> Principles</h1>
@@ -107,20 +110,28 @@
     font-size: 16px;
 "><small>No need to download FrameworkJS to start a new project! Just click here</small></center> </div></li></ul>
 <h1 id="instructions"><i class="material-icons">create</i> Starting</h1>
+<p>First, <a href="#download">download it</a><zeronet> or <a onclick="clone()"><i class="material-icons">add_circle</i> create a new project</a></zeronet>.</p>
+<zeronet><blockquote><b>Warning</b>: The EXTRACT step isn't needed on ZeroNet. <b><small>Unless you downloaded FrameworkJS zip file and want to implement it on your current project.</small></b></blockquote></zeronet>
 <h2><i class="material-icons">archive</i> Extract</h2>
 <p>Open <code>framework.zip</code> and extract all the files from the <code>/upload</code> folder, to your site root.</p>
 <h2><i class="material-icons">code</i> Add to HTML</h2>
+<zeronet><blockquote><b>Warning</b>: Only follow the bellow steps if you're implementing FrameworkJS on your current ZeroNet project. If you want to create a new project, just click <a onclick="clone()"><i class="material-icons">add_circle</i> Create your own zite!</a>.</blockquote></zeronet>
 <h3><i class="material-icons">settings_applications</i> Javascript</h3>
 <p>Add this after the <code>&lt;head&gt;</code> tag:</p><textarea onclick="this.focus();this.select()" readonly="readonly" style="margin:6px 41px;width: 392px;height: 28px;">&lt;script type="text/javascript" src="js/jquery.min.js"&gt;&lt;/script&gt;</textarea><p><b>Note</b>: the jQuery tag needs to be in top of any other javascript link.</p><p>And in any other part of the <code>&lt;head&gt;</code> tag, add the following:</p><textarea onclick="this.focus();this.select()" readonly="readonly" style="margin:6px 41px;width: 392px;height: 28px;">&lt;script type="text/javascript" src="js/page-common.js"&gt;&lt;/script&gt;</textarea><h3><i class="material-icons">format_paint</i> Stylesheets</h3><p>Designs, Roboto font and Material Icons.</p>
 <p>Add this in any place of the <code>&lt;head&gt;</code> tag:</p>
 <textarea onclick="this.focus();this.select()" readonly="readonly" style="margin: 6px 41px; width: 392px; height: 100px;">&lt;link rel="stylesheet" type="text/css" href="css/page-common.css"&gt;
 &lt;link rel="stylesheet" type="text/css" href="css/app-common.css"&gt;
 &lt;link href="Fonts/Roboto/font.css" rel="stylesheet"&gt;
-&lt;link href="Fonts/Material Icons/font.css" rel="stylesheet"&gt;</textarea><h3><i class="material-icons">check_circle</i> Done!</h3><p>Then you will see your site working with Framework.js and his design.</p><p><b>Note</b>: if you want to do it from scratch, extract the <code>/blank</code> folder from the <code>framework.zip</code> file.</p><h6><i class="material-icons">add_circle</i> To see sample codes and elements to insert in your project:<p></p></h6>
+&lt;link href="Fonts/Material Icons/font.css" rel="stylesheet"&gt;</textarea>
+<zeronet><blockquote><b>Warning</b>: Only follow the above steps if you're implementing FrameworkJS on your current ZeroNet project. If you want to create a new project, just click <a onclick="clone()"><i class="material-icons">add_circle</i> Create your own zite!</a>.</blockquote></zeronet>
+<h3><i class="material-icons" style="color:green">check_circle</i> Done!</h3><p>Then you will see your site working with Framework.js and his design.</p>
+<clearnet><p><b>Note</b>: if you want to do it from scratch, extract the <code>/blank</code> folder from the <code>framework.zip</code> file.</p></clearnet>
+<h6><i class="material-icons">add_circle</i> To see sample codes and elements to insert in your project:<p></p></h6>
 <a href="elements.html"><button><i class="material-icons">folder</i><i class="material-icons">code</i> Explore the Elements!</button></a>
+<p><i class="material-icons">view_compact</i> <b>Note</b>: <a href="https://vuejs.org/" target="_blank">VueJS</a> Material Design <a href="https://vuematerial.io/components/" target="_blank">components</a> are also usable!</p>
 <h2><i class="material-icons">format_paint</i> Personalize</h2>
-<p>Use a custom .css file to use your own style.</p><p>Inside your <code>/css</code> folder, there are two files: the <code>page-custom.css</code> and <code>app-custom.css</code>.</p><p>Open these files and, accourding to the style type (if is for <code>page</code> or for <code>app</code>), insert the CSS classes with your modifications.</p>
-<p><b>Note</b>: Don't forget to use the <code>!important</code> after every value.</p><h3><i class="material-icons">space_bar</i> Navbar</h3><p>This is like the hat of your app/site. Match it to your theme?</p>
+<p>Use a custom <code>.css</code> file to use your own style.</p><p>Inside your <code>/css</code> folder, there are two files: the <code>page-custom.css</code> and <code>app-custom.css</code>.</p><p>Open those files and, according to the type of style (if is for <code>page</code> or for <code>app</code>), insert the CSS classes with your modifications.</p>
+<p><b>Note</b>: Don't forget to use the <code>!important</code> after every value.</p><h3><i class="material-icons">space_bar</i> Navbar</h3><p>This is like the hat of your app/site. Let's match it to your theme?</p>
 <p>Open the <code>page-custom.css</code> file and insert the following:</p><textarea onclick="this.focus();this.select()" readonly="readonly" style="margin:6px 41px;width: 392px;height: 44px;">.header, header {
     background: #00A185!important;
 }</textarea><p>Then change <code><b>#00A185</b></code> to your <b>background color</b>.</p>
@@ -136,7 +147,7 @@
 <h3><i class="material-icons">touch_app</i> Selection</h3><p>If you want to personalize the colors of the selection, open the <code>page-custom.css</code> file and insert the following:</p><textarea onclick="this.focus();this.select()" readonly="readonly" style="margin: 6px 41px;width: 392px;height: 58px;">::selection {
     background: #00A185!important;
     color: #fff!important;
-}</textarea><p>Then change <code><b>#00A185</b></code> to your <b>background color</b> and/or <code><b>#fff</b></code> to your <b>text color</b>.</p><h3><i class="material-icons">format_color_text</i> Heading 1</h3><p>As the most important of all headings, <code>&lt;h1&gt;</code> have the theme color in FrameworkJS.</p>
+}</textarea><p>Then change <code><b>#00A185</b></code> to your <b>background color</b> and/or <code><b>#fff</b></code> to your <b>text color</b>.</p><h3><i class="material-icons">format_color_text</i> Heading 1</h3><p>As the most important of all text headings, <code>&lt;h1&gt;</code> have the theme color in FrameworkJS.</p>
 <p>If you want to personalize it, open the <code>page-custom.css</code> file and insert the following:</p><textarea onclick="this.focus();this.select()" readonly="readonly" style="margin: 6px 41px;width: 392px;height: 44px;">.h1, h1 {
     color: #00A185!important;
 }</textarea><p>Then change <code><b>#00A185</b></code> to your <b>text color</b>.</p><h3><i class="material-icons">menu</i> Menu</h3><p>If you want to personalize the icon/text color and the hover effect background, open the <code>page-custom.css</code> file and insert the following:</p><textarea onclick="this.focus();this.select()" readonly="readonly" style="margin: 6px 41px;width: 392px;height: 90px;">.navmenu {
@@ -176,12 +187,12 @@ span.color{color:#00A185}</textarea>
 <p>Then change <code><b>#00A185</b></code> to your color.</p><h3><i class="material-icons">add_circle</i> Other customizations</h3><h6><i class="material-icons">color_lens</i> Change tab/bar color</h6>
 <p>Thanks to our support to Progressive Web Apps, you can customize the color that will appear in your site's tab/bar/others. This is called theme-color.</p><p>Open the <code>manifest.json</code> of your project, so you will find <code>"theme_color": "#00A185"</code>. Change <code>#00A185</code> to your theme color.</p><p><b>Note</b>: you can also change the <code>"background_color": "#efefef"</code>, changing <code>#efefef</code> by the color you use in your project's background.</p><button><i class="material-icons">assignment_turned_in</i> Tutorials for PWA are comming</button>
 <h6><i class="material-icons">code</i> Personalize the PEHTML of your project</h6><p>Change things such as your brand new favicon, tab title's color, and others.</p>
-<a href="http://plasnerd.github.io/PEHTML/" target="blank"><button><i class="material-icons">code</i> Visit PEHTML!</button></a>
+<clearnet><a href="http://plasnerd.github.io/PEHTML/" target="blank"><button><i class="material-icons">code</i> Visit PEHTML!</button></a></clearnet><zeronet><a href="http://127.0.0.1:43110/pehtml.bit/" target="blank"><button><i class="material-icons">code</i> Visit PEHTML!</button></a></zeronet>
 <h6><i class="material-icons">tag_faces</i> Use icons</h6>
 <p>Framework.js includes Material Icons. You can use them by inserting HTML tags.</p><a href="https://material.io/icons/" target="blank"><button><i class="material-icons">folder</i> Explore Material Icons!</button></a>
 <h1 id="users"><i class="material-icons">view_list</i> Using Framework.js</h1><h2><i class="material-icons">web</i> Sites</h2>
 
-<ul class="tiled longcard"><a href="https://plasnerd.github.io/" target="blank"><li style="background: #602a80;" title="Plasnerd"><div style="
+<ul class="tiled longcard"><!--<a href="https://plasnerd.github.io/" target="blank"><li style="background: #602a80;" title="Plasnerd"><div style="
     background: url(img/showcase/plasnerd.png) no-repeat no-repeat 128px 7px;
     background-size: 55px;
 "></div></li></a>
@@ -199,13 +210,15 @@ span.color{color:#00A185}</textarea>
 <a href="http://ultracreator.com" target="blank"><li style="background: red;" title="UltraCreator"><div style="
     background: url(img/showcase/ultracreator.png) no-repeat no-repeat 50px 16px;
     background-size: 215px;
-"></div></li></a></ul><h2><i class="material-icons">apps</i> Apps</h2><ul class="tiled longcard"><!-- <a href="http://plasnerd.github.io/PEHTML/" target="blank"><li style="background: #ffdc1e;" title="Universav Poké"><div style="
+"></div></li></a>--></ul>
+<h2><i class="material-icons">apps</i> Apps</h2><ul class="tiled longcard"><!-- <a href="http://plasnerd.github.io/PEHTML/" target="blank"><li style="background: #ffdc1e;" title="Universav Poké"><div style="
     background: url(img/showcase/universavpoke.png) no-repeat no-repeat 50px 7px;
-"></div></li></a> -->
+"></div></li></a>
 <a href="http://plasnerd.github.io/PEHTML/" target="blank"><li style="background: #ffe078;" title="Notestick"><div style="
     background: url(img/showcase/notestick.png) no-repeat no-repeat 128px 7px;
     background-size: 55px;
-"></div></li></a></ul><h1><i class="material-icons">receipt</i> Seals and badges</h1><h2>Seal</h2>
+"></div></li></a>--></ul>
+<h1><i class="material-icons">receipt</i> Seals and badges</h1><h2>Seal</h2>
 <img src="img/seal-1.png" width="167px" height="94px" title="Built with FrameworkJS" style="-webkit-user-drag:element">
 <br><textarea onclick="this.focus();this.select()" readonly="readonly" style="margin:6px 41px;width: 392px;height: 70px;">&lt;a href="https://plasnerd.github.io/Framework.js/" target="blank"&gt;&lt;img src="https://plasnerd.github.io/Framework.js/img/seal-1.png" width="167px" height="94px" title="Built with FrameworkJS" style="-webkit-user-drag:element"&gt;&lt;/a&gt;</textarea><h2>Badge</h2><img src="https://img.shields.io/badge/built%20with-Framework.js%20(r1)-00A185.svg" style="-webkit-user-drag:element">
 <br><textarea onclick="this.focus();this.select()" readonly="readonly" style="margin:6px 41px;width: 392px;height: 58px;">&lt;a href="https://plasnerd.github.io/Framework.js/" target="blank"&gt;&lt;img src="https://img.shields.io/badge/built%20with-Framework.js%20(r1)-00A185.svg"&gt;&lt;/a&gt;</textarea>
@@ -283,7 +296,7 @@ s.setAttribute('data-timestamp', +new Date());
 <clearnet><script id="dsq-count-scr" src="//framework-js.disqus.com/count.js" async></script></clearnet>
 </div>
 
-  <script type="text/javascript" src="plugins/UmbrellaJS/umbrella.min.js"></script>
+<!--  <script type="text/javascript" src="plugins/UmbrellaJS/umbrella.min.js"></script>
   <script type="text/javascript" src="plugins/VueJS/vue.js"></script>
   <script src="https://unpkg.com/vue-material@beta"></script>
   <script>
@@ -292,6 +305,6 @@ s.setAttribute('data-timestamp', +new Date());
       new Vue({
         el: '#app'
       })
-    </script>
+    </script>-->
 </body>
 </html>

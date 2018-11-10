@@ -35,6 +35,12 @@ a button{text-decoration:none}
 .full-size{width:100%!important;height:100%!important}
 .no-opacity{opacity:1!important}
 
+.p,p{color:#585b55;font-size:16px;user-select:text!important}
+p.color{color:#00A185}
+
+.span,span{color:#888;font-size:12px}
+span.color{color:#00A185}
+
 .h1, h1{font-size:80px;color:#00A185;margin:25px 0px 0px 0px;user-select:text!important}
 .h2, h2{font-size:70px;color:#333;margin:25px 0px 0px 0px;user-select:text!important}
 .h3, h3{font-size:60px;color:#333;opacity:0.9;margin:25px 0px 0px 0px;user-select:text!important}
@@ -54,12 +60,6 @@ comments h1 .badge a{text-decoration:none}
 h1 .badge{font-size:40px;top:-14px}h2 .badge{font-size:35px;top:-12px}h3 .badge{font-size:30px;top:-12px}h4 .badge{font-size:25px;top:-10px}h5 .badge{font-size:20px;top:-8px}h6 .badge{font-size:15px;top:-6px}
 .badge.blue{background-color:#5b6ed6}.badge.green{background-color:#53a93f}.badge.color{background-color:#00A185;color:#fff}
 .badge.mini{font-size:7px;-webkit-user-select:none;-moz-user-select:none;user-select:none}
-
-.p,p{color:#585b55;font-size:16px;user-select:text!important}
-p.color{color:#00A185}
-
-.span,span{color:#888;font-size:12px}
-span.color{color:#00A185}
 
 .blockquote,blockquote{padding:10px;background:#d6d6d6;color:#585b55;border:1px solid transparent;font-size:14px;user-select:text!important}
 .blockquote,blockquote:hover{border:1px solid #333}
@@ -88,7 +88,7 @@ code {
 .input,input:hover{background:#d6d6d6;border:1px solid transparent}
 .input,input:focus{background:#fff;color:#000}
 
-.textarea,textarea{display:inline;-webkit-margin-before:1em;-webkit-margin-after:1em;-webkit-margin-start:40px;-webkit-margin-end:40px;padding:10px;background:#d6d6d6;border:1px solid #333;color:#585b55;font-size:12px;user-select:text!important}
+.textarea,textarea{display:inline;-webkit-margin-before:1em;-webkit-margin-after:1em;-webkit-margin-start:40px;-webkit-margin-end:40px;padding:10px;background:#d6d6d6;border:1px solid #333;color:#585b55;font-size:12px;user-select:text!important;box-sizing:initial}
 .textarea, textarea:hover{border:1px solid transparent}
 .textarea, textarea:focus{background:transparent}
 
@@ -334,6 +334,7 @@ footer:active .footer-shadow{box-shadow:0px 16px 26px -1px black}
 @media(max-width:8in){
 .logo, logo{font-size:19px;line-height:59px}
 .textarea, textarea{width: calc(100% + -55px)}
+.p,p{font-size:14px}
 .h1, h1{font-size:52px;text-align:center}
 .h2, h2{font-size:48px;text-align:center}
 .h3, h3{font-size:44px;text-align:center}
