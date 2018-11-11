@@ -20,8 +20,8 @@ body{background:rgb(239, 239, 239);font-family: Roboto;-webkit-font-smoothing:an
 .article,article{margin:15px 8px 8px 8px}
 .comments,comments{margin:15px 8px 8px 8px}
 
-a:-webkit-any-link{#5b6ed6}
-a:visited{color:#aa4eaf}
+a{color:#0074D9!important}
+a:visited{color:#5b6ed6!important}
 a:hover{font-weight:bold;text-decoration:none}
 a:active{opacity:0.5}
 a .badge{color:#fff!important;text-decoration:none}

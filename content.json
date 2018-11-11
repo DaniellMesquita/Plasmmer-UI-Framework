@@ -20,6 +20,10 @@
    "sha512": "237b289a1f8c935bfcfdb636d8baf74a61e5f0cee8a96aec7252795b89e2be61",
    "size": 1146
   },
+  "CNAME": {
+   "sha512": "f3554f1dbe3d6cd5598e63f3068ce4b133662c709e23789eb4c572fcc6bc6894",
+   "size": 16
+  },
   "Fonts/Material Icons/font.css": {
    "sha512": "6d6940b43ac0f2d4225503f0cf589176e4ffb3817c5d804ec96567a23d10f7e7",
    "size": 875
@@ -547,11 +551,11 @@
  },
  "ignore": "(^.git)",
  "inner_path": "content.json",
- "modified": 1541955228,
+ "modified": 1541956112,
  "postmessage_nonce_security": true,
  "signers_sign": "GxPcc7gTaIO5FSW0SpB7qerY9S/GUhbzfpFhwN4+XFtcGjd0U9gPPLi0Tm9ddT01FEG1lt/49XGoGPIxz2o81qs=",
  "signs": {
-  "1Fmwk685eaX7GjoQ7JKo3QvywizGfnYRCB": "HKPhh0KU948HbqtP5HZCj/6Vl1Bd33GFWRx1zgMbPgAeMW3AF25fC+Xcf9BgaN0WlIgjPBMQqrhfOq9NFUlGng4="
+  "1Fmwk685eaX7GjoQ7JKo3QvywizGfnYRCB": "HDfU2TG1FK2jT4xT2Ihg6FvsTASsy0ASyBToiwlTqsYdKNWd3PtG2ZZr8TlQ5bp++0Joze9Qzhp1ejva9b4OfCE="
  },
  "signs_required": 1,
  "title": "Framework.js",
