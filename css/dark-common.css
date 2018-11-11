@@ -2,9 +2,6 @@ body {
     background: #232A31!important;
     color: #a7a7a7!important;
 }
-.p, p {
-    color: #8e9194!important;
-}
 .h2, h2 {
     color: #8e9194!important;
 }
@@ -20,6 +17,15 @@ body {
 .h6, h6 {
     color: #8e9194!important;
 }
+h2.color{color:#00A18570!important}
+h3.color{color:#00A18570!important}
+h4.color{color:#00A18570!important}
+h5.color{color:#00A18570!important}
+h6.color{color:#00A18570!important}
+.p, p {
+    color: #8e9194!important;
+}
+p.color{color:#00A18570!important}
 a {
     color: #58dbec !important;
 }
