@@ -55,7 +55,7 @@ zeroFrame.cmd("serverInfo", {}, (server_info) => {
     // Depending on user theme settings, set the theme
     switch(server_info.user_settings.theme) {
     case "light":
-        body.innerHTML += '' + body.innerHTML
+        body.innerHTML += ''
         break
     case "dark":
         body.innerHTML += '<link rel="stylesheet" type="text/css" href="css/dark-common.css">'
