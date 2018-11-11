@@ -57,6 +57,9 @@ button:not(.md-button):hover {
 }
 button.color{background:#00A185!important;color:#fffc!important;font-weight:bold!important;padding:10px!important;font-size:16px!important}
 button.color:hover{background:#ffffffb3!important;color:#00A185!important}
+.input, input{border:1px solid #8e9194!important;color:#8e9194!important}
+.input, input:hover{background:#8e9194!important}
+.input, input:focus{background:#d6d6d6!important;color:#000!important}
 ul.tiled li p {
     color: #fff!important;
 }
