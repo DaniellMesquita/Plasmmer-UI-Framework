@@ -41,10 +41,12 @@ code {
     background: #1E2429!important;
     color: #8e9194!important;
 }
+.blockquote, blockquote:active{background:transparent!important}
 .textarea, textarea {
     background: #1E2429!important;
     color: #8e9194!important;
 }
+.textarea, textarea:focus{background: transparent!important}
 button:not(.md-button) {
     background: #000!important;
     color: #a7a7a7!important;
