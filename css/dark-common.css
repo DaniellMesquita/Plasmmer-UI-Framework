@@ -73,6 +73,7 @@ header nav ul li {
 header nav ul li p {
     color: #a7a7a7!important;
 }
+.nav-tabs .nav-link{color:#fff!important}
 .footer, footer {
     background: #00A18550!important;
 }
