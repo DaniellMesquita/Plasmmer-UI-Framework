@@ -49,6 +49,9 @@ button:not(.md-button):hover {
 }
 button.color{background:#00A185;color:#fffc;font-weight:bold;padding:10px;font-size:16px}
 button.color:hover{background:#ffffffb3;color:#00A185}
+ul.tiled li p {
+    color: #fff!important;
+}
 .header, header {
     background: #00A18570!important;
 }

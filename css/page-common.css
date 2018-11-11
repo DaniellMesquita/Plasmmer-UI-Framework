@@ -154,7 +154,7 @@ ul.tiled li{
     border-radius: 5px;
 }
 ul.tiled li:hover{box-shadow:0px 0px 25px 5px #000}
-ul.tiled li p{font-size: 20px;color: #fff;line-height:1px;margin-left:5px;margin-right:5px}
+ul.tiled li p{font-size: 20px;color: #fff;line-height:25px;text-align:center;margin-left:5px;margin-right:5px}
 ul.tiled li i{position:relative;top:5px;color:#fff;font-size:32px}
 
 ul.tiled.longcard li{width: 315px;height: 70px;}
