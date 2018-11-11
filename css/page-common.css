@@ -13,7 +13,7 @@ body{background:rgb(239, 239, 239);font-family: Roboto;-webkit-font-smoothing:an
 .logo, logo{position:absolute;height:60px;font-size: 45px;opacity:0.5;color:#fff}
 .logo,logo:hover{opacity:1}
 .logo,logo:active{opacity:0.2}
-.logo, logo .badge{top:-20px;margin-left:-5px}
+.logo, logo .badge{top:-20px;margin-left:-5px;font-size:initial!important}
 
 .content{width:100%;height:calc(100% - 60px);top:60px;position:fixed;overflow-x:hidden;overflow-y:scroll}
 
