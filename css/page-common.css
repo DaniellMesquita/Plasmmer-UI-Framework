@@ -248,16 +248,24 @@ header nav ul li div i {
 
 .navmenu {
     border-bottom: 1px solid;
-    background: rgba(0, 0, 0, 0.9);
-    border-color: #fff;
+    background: rgba(255, 255, 255, 0.9);
+    border-color: #000;
     color: #00A185;
     z-index: 2;
     display: none
 }
 .navmenu.fixed {
     position: fixed !important;
-    top: calc(0px - -61px)
+    top: calc(0px - -60px);
+	box-shadow: 0 0 15px 1px black;
 }
+.navmenu.fixed:hover {
+	box-shadow:0px 0px 25px 5px #000
+}
+.navmenu.fixed:active {
+	box-shadow:0px 0px 25px 9px #000
+}
+
 .navmenu ul {
     width: 100%;
     height: 100%;
@@ -265,7 +273,7 @@ header nav ul li div i {
     padding: 0
 }
 .navmenu ul > li {
-    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
     position: relative;
     width: 100%;
     display: flex
