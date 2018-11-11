@@ -161,10 +161,9 @@ ul.tiled.longcard li{width: 315px;height: 70px;}
 ul.tiled.longcard li div{width:315px;height:70px;opacity:0.5;position: relative;top: 0px}ul.tiled.longcard li div:hover{opacity:1}
 
 .nav-tabs-scrollable{box-shadow:inset 0 -2px 0 -1px #00A185!important}
+.nav-tabs .nav-link{padding:0.750rem .75rem!important}
 .nav-tabs .nav-link.active{color:#00A185!important;font-weight:bold!important}
 .nav-tabs .nav-link::before{background-color:#00A185!important;height: .250rem!important}
-
-.tab-content{clear:both;display:block}
 
 header nav {
     position: absolute;
