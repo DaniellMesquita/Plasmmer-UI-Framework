@@ -1,0 +1,58 @@
+body {
+    background: #232A31!important;
+    color: #a7a7a7!important;
+}
+.p, p {
+    color: #8e9194!important;
+}
+.h2, h2 {
+    color: #8e9194!important;
+}
+.h3, h3 {
+    color: #8e9194!important;
+}
+.h6, h6 {
+    color: #8e9194!important;
+}
+a {
+    color: #58dbec !important;
+}
+::selection {
+    background: #00A18570!important;
+    color: #a7a7a7!important;
+}
+code {
+    background: #aa4eaf!important;
+    color: #efcdf3!important;
+}
+.blockquote, blockquote {
+    background: #1E2429!important;
+    color: #8e9194!important;
+}
+.textarea, textarea {
+    background: #1E2429!important;
+    color: #8e9194!important;
+}
+button:not(.md-button) {
+    background: #000!important;
+    color: #a7a7a7!important;
+}
+button:not(.md-button):hover {
+    background: #a7a7a7!important;
+    color: #000!important;
+}
+.header, header {
+    background: #00A18570!important;
+}
+.logo, logo {
+    color: #8e9194!important;
+}
+header nav ul li {
+    color: #a7a7a7!important;
+}
+header nav ul li p {
+    color: #a7a7a7!important;
+}
+.footer, footer {
+    background: #00A18550!important;
+}

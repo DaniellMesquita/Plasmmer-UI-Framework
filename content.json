@@ -9,8 +9,16 @@
  "favicon": "icon.png",
  "files": {
   "1.txt": {
-   "sha512": "2a404f83662863193a873fdf54adb52e86339617d3f8c75e6b412bed54b7d68e",
-   "size": 562
+   "sha512": "86ee11ec33f0d1a93395906fe93bdac7bc441dd57c7bd9574fc9bac689e20c2f",
+   "size": 1285
+  },
+  "14AYuS7E5gtiAaJKo1HMXnZnGUtiymb6Rt - Shortcut.lnk": {
+   "sha512": "773ca4434b66278c0d7cf398e27ce57afe395d274e3a195e4d404160ddb9bff6",
+   "size": 1146
+  },
+  "1FMWKFweT5ADXajRJatNdyrdchGqyZzKeD - Shortcut.lnk": {
+   "sha512": "237b289a1f8c935bfcfdb636d8baf74a61e5f0cee8a96aec7252795b89e2be61",
+   "size": 1146
   },
   "Fonts/Material Icons/font.css": {
    "sha512": "6d6940b43ac0f2d4225503f0cf589176e4ffb3817c5d804ec96567a23d10f7e7",
@@ -108,9 +116,13 @@
    "sha512": "cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce",
    "size": 0
   },
+  "css/dark-common.css": {
+   "sha512": "9e240b1ef8d99897cecf78067cdacdfc60f4f58c7efec8f29807f24baa2d67f9",
+   "size": 1120
+  },
   "css/page-common.css": {
-   "sha512": "6f73db084b8accf9ac51df19ef862174b2c37566cae5a9c3f0de6efad1a1f7eb",
-   "size": 11531
+   "sha512": "870c9f3c55313affd34613fdcf3179af40c2c9c2e324c0c1fbc0e7be3b6e69f5",
+   "size": 12064
   },
   "css/page-custom.css": {
    "sha512": "cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce",
@@ -121,8 +133,8 @@
    "size": 90
   },
   "elements.html": {
-   "sha512": "e9281b451785ad8ae4f4f4154ef59a2dcca9aca3dc32c3d78e792a790249d1a7",
-   "size": 47087
+   "sha512": "6418d2e571575483ffac8690a27e0b95aa18031eaa68908888100c58482736d3",
+   "size": 48531
   },
   "icon-default.png": {
    "sha512": "74369e9c113f9535d511e8f800955f1c9204fabe6b91ece8a0cd47dc3d01bdf0",
@@ -345,12 +357,12 @@
    "size": 69165
   },
   "index-default.html": {
-   "sha512": "ac01c077a493364810c01ff71a88ca61f566ff5a74ce9d2745c745e0ed6bbe38",
-   "size": 8080
+   "sha512": "85836ec9d88697c53c922850ae13362d6b7f20425ba42f76e136da0bb40c891a",
+   "size": 8539
   },
   "index.html": {
-   "sha512": "cd5d8ae4131c29003db8215db2b66faf3518e1f5e894ecf8f9f40ebdcc1aab54",
-   "size": 24820
+   "sha512": "0386442d33cc7db5987b654c1b780ff8a953b4a758e522cc224e8185f3d4096d",
+   "size": 26959
   },
   "js/ZeroFrame.js": {
    "sha512": "25624cbfc07b6d208cbef3200876c4ba5b5ac0be83a395f0911a02bee5f33965",
@@ -361,8 +373,84 @@
    "size": 197
   },
   "js/page-common.js": {
-   "sha512": "839cd94780e6aad61bb39d264c1a600bec3084247e68540ecd4aa4fc7dde0139",
-   "size": 2084
+   "sha512": "e09e6ccc1e2815c9d06baf67c21610d95af69cb2321e72b015c51ddcc14c485d",
+   "size": 2086
+  },
+  "plugins/Bootstrap/css/bootstrap-grid.css": {
+   "sha512": "583bbaf319ca7b51f5bf551a46e6d83b555396175a640418174d568da552a9b6",
+   "size": 37644
+  },
+  "plugins/Bootstrap/css/bootstrap-grid.css.map": {
+   "sha512": "70aaf6487ccebb239d125d471d405aa2ca042fd71f62324aca805e15e670a768",
+   "size": 98559
+  },
+  "plugins/Bootstrap/css/bootstrap-grid.min.css": {
+   "sha512": "79c422f5503f68591ad128df3c0270f18f6193f3eabd6a79c2d3742649175aca",
+   "size": 28977
+  },
+  "plugins/Bootstrap/css/bootstrap-grid.min.css.map": {
+   "sha512": "a41069fdbd0841963cbb7aafa749ad0f2e0b3f6ac0741baf1b7cfbdd25afd4e8",
+   "size": 68241
+  },
+  "plugins/Bootstrap/css/bootstrap-reboot.css": {
+   "sha512": "c93cf7b17e6ea48a8abe35e4700d2fd55398db831781d73cdfa291d0268bfb22",
+   "size": 4896
+  },
+  "plugins/Bootstrap/css/bootstrap-reboot.css.map": {
+   "sha512": "b924c0d76406544c85f72af64023d9d3c134cc3366c241e730e2ba9b20a0e933",
+   "size": 60752
+  },
+  "plugins/Bootstrap/css/bootstrap-reboot.min.css": {
+   "sha512": "501ae827189b5ebb89044e607a9cfdb9198aacea84a6030a46d4165ad8b680c6",
+   "size": 4019
+  },
+  "plugins/Bootstrap/css/bootstrap-reboot.min.css.map": {
+   "sha512": "22a3da8f76d6d371ee326ddec6ba61e816040cee83873f602a0548baa1231c50",
+   "size": 26084
+  },
+  "plugins/Bootstrap/css/bootstrap.css": {
+   "sha512": "e7b9477ef6c4e462d6036d2a0d3093454a4a9ed0671651b457ec7c7f7ab70ea6",
+   "size": 173597
+  },
+  "plugins/Bootstrap/css/bootstrap.css.map": {
+   "sha512": "05f3f1ca87f019f2c7230050c6bb976fe1ec5f3bd5538b07e6c05515b08c7858",
+   "size": 430003
+  },
+  "plugins/Bootstrap/css/bootstrap.min.css": {
+   "sha512": "890415fa75ed065992dd7883aed98bfbdfd9fa26eec7e62ea30263238adca4ee",
+   "size": 140936
+  },
+  "plugins/Bootstrap/css/bootstrap.min.css.map": {
+   "sha512": "6e3b9252ab58c03aa164c99d980b8addad47b3c4ed32ab8b59d66cefc98005a1",
+   "size": 562427
+  },
+  "plugins/Bootstrap/js/bootstrap.min.js": {
+   "sha512": "9fa75814e1b9f7db38fe61a503a13e60b82d83db8f4ce30351bd08a6b48c0d85",
+   "size": 51039
+  },
+  "plugins/Bootstrap/js/bootstrap.min.js.map": {
+   "sha512": "1ae360a198d71338223b296274ba5951617a5d044f0cdcf2c4585bf3e8134ee1",
+   "size": 176087
+  },
+  "plugins/Bootstrap/themes/material/css/material.min.css": {
+   "sha512": "847db55afbfae521a7031752e9262dc37777a3f8dc21cd0d6a1022bb31f249f8",
+   "size": 253308
+  },
+  "plugins/Bootstrap/themes/material/css/material.min.css.map": {
+   "sha512": "4cd04a605958589f06f97e304994ecced3bc364a7ddd8f2e76a482a115e23be5",
+   "size": 654877
+  },
+  "plugins/Bootstrap/themes/material/js/material.min.js": {
+   "sha512": "00422f749d380a5eddef22cc3a3b4dd26477c009ff9c6c737f4a7bae056dc3db",
+   "size": 36831
+  },
+  "plugins/Bootstrap/themes/material/js/material.min.js.map": {
+   "sha512": "42a8e6ee366dffbedc3a5e26e0ada1d5f43b83bcb377df1c32f255c5f960ff31",
+   "size": 166847
+  },
+  "plugins/Popper.js/popper.min.js": {
+   "sha512": "95d735b0fbb5159f2c9a0920a7e1f09d8c956f57919f6c0498aac383526a3c46",
+   "size": 20337
   },
   "plugins/UmbrellaJS/umbrella.min.js": {
    "sha512": "b1d83c25623fb71412542c3270e4f5931817e521d32c48e4a7cc51700ee380ee",
@@ -424,6 +512,14 @@
    "sha512": "e5c1b83ef8516a074c7987de7d7c79f52795bf0ef6ef8061330eee10818f9da6",
    "size": 604
   },
+  "plugins/jQuery/jquery-3.3.1.min.map": {
+   "sha512": "0cdbcfe70f661bd706a86b99d6a9693adf4b13246582bf1e20394e7105fc3e7f",
+   "size": 132382
+  },
+  "plugins/jQuery/jquery.min.js": {
+   "sha512": "f8da8f95b6ed33542a88af19028e18ae3d9ce25350a06bfc3fbf433ed2b38fef",
+   "size": 86927
+  },
   "r2.txt": {
    "sha512": "141520a8ab3441941a45345ea61c98147d5453ea83247f97bebe31098639de8c",
    "size": 919
@@ -451,11 +547,11 @@
  },
  "ignore": "(^.git)",
  "inner_path": "content.json",
- "modified": 1540136894,
+ "modified": 1541898094,
  "postmessage_nonce_security": true,
  "signers_sign": "GxPcc7gTaIO5FSW0SpB7qerY9S/GUhbzfpFhwN4+XFtcGjd0U9gPPLi0Tm9ddT01FEG1lt/49XGoGPIxz2o81qs=",
  "signs": {
-  "1Fmwk685eaX7GjoQ7JKo3QvywizGfnYRCB": "HEEjgQDWlC2OJvd90DWX0sKWa3iHPnJcB9VoK7qqck3bM6BhVFvPa8hnHNUs3dALTiptCB41cwQ7/vFzxPNsBgU="
+  "1Fmwk685eaX7GjoQ7JKo3QvywizGfnYRCB": "G8NtKk5p3OnUDLCdZdsSG2z5GdatracAwuLMtso42xbCJO6IhoBSqAHCru+YgkQULGftytvIzIu2ZLFz9GDMQqU="
  },
  "signs_required": 1,
  "title": "Framework.js",
