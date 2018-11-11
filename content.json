@@ -117,12 +117,12 @@
    "size": 0
   },
   "css/dark-common.css": {
-   "sha512": "504bd65b7feb9b9967c7a8d15c1fa76234489347fc9a2959ef55e0334ab4cdaf",
-   "size": 1626
+   "sha512": "82e91e5bbf482b9cdf4c1a9da076fe3442171f670be16159319c82b10a0a2b14",
+   "size": 1696
   },
   "css/page-common.css": {
-   "sha512": "7e32055e571864bddb94bd1f9bd49dc774d27cdd5588dc5984c2c574049c6c4f",
-   "size": 12154
+   "sha512": "c07c6f3f54d330127ff48807dd98ebb7d2e91f6c672357022322f178374a5410",
+   "size": 11597
   },
   "css/page-custom.css": {
    "sha512": "cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce",
@@ -133,8 +133,8 @@
    "size": 90
   },
   "elements.html": {
-   "sha512": "6418d2e571575483ffac8690a27e0b95aa18031eaa68908888100c58482736d3",
-   "size": 48531
+   "sha512": "8bffd1ca96ab2de481181b952d7c974988d39cafdb787cf957a481cdd14679aa",
+   "size": 49437
   },
   "icon-default.png": {
    "sha512": "74369e9c113f9535d511e8f800955f1c9204fabe6b91ece8a0cd47dc3d01bdf0",
@@ -357,12 +357,12 @@
    "size": 69165
   },
   "index-default.html": {
-   "sha512": "85836ec9d88697c53c922850ae13362d6b7f20425ba42f76e136da0bb40c891a",
-   "size": 8539
+   "sha512": "3d9066baa3e46f7a75dfafe4dd610d1a8c3b26e86ecc0044358f7f7eb3fd3bf1",
+   "size": 8542
   },
   "index.html": {
-   "sha512": "95c1f6c00e636b346f974736b18a41b48d7067762da1314f81f6edbdd218d8a1",
-   "size": 27536
+   "sha512": "745a066b0c4410fd7d74af0afe7dac7591af5c0eaffe7d33d0fd32682896bb7c",
+   "size": 27539
   },
   "js/ZeroFrame.js": {
    "sha512": "25624cbfc07b6d208cbef3200876c4ba5b5ac0be83a395f0911a02bee5f33965",
@@ -547,11 +547,11 @@
  },
  "ignore": "(^.git)",
  "inner_path": "content.json",
- "modified": 1541909142,
+ "modified": 1541950922,
  "postmessage_nonce_security": true,
  "signers_sign": "GxPcc7gTaIO5FSW0SpB7qerY9S/GUhbzfpFhwN4+XFtcGjd0U9gPPLi0Tm9ddT01FEG1lt/49XGoGPIxz2o81qs=",
  "signs": {
-  "1Fmwk685eaX7GjoQ7JKo3QvywizGfnYRCB": "Gz7zvvI/admxIh9b28AE4iwL+eiz1K7M1ngaRyT9qxbbCvpoD+0jgNGbOYTIF1KdQ0lXEkKLdUyWNQRSvqJgb/E="
+  "1Fmwk685eaX7GjoQ7JKo3QvywizGfnYRCB": "GwQ6I8MjfBXqqc7UTh5j+jR+4qU1pBh1NrvH7kJUhzepURqZzWMXC2cgBu1yghfRSCsZ/UTbLtEccR5HE8LiWEc="
  },
  "signs_required": 1,
  "title": "Framework.js",

@@ -53,8 +53,8 @@ button:not(.md-button):hover {
     background: #a7a7a7!important;
     color: #000!important;
 }
-button.color{background:#00A185;color:#fffc;font-weight:bold;padding:10px;font-size:16px}
-button.color:hover{background:#ffffffb3;color:#00A185}
+button.color{background:#00A185!important;color:#fffc!important;font-weight:bold!important;padding:10px!important;font-size:16px!important}
+button.color:hover{background:#ffffffb3!important;color:#00A185!important}
 ul.tiled li p {
     color: #fff!important;
 }
