@@ -105,7 +105,10 @@
   <li class="nav-item">
     <a aria-controls="css" aria-selected="false" class="nav-link" data-toggle="tab" href="#css" id="css-tab" role="tab"><i class="material-icons">format_paint</i> CSS</a>
   </li>
-<div class="nav-tabs-indicator" style="left: 0px; right: 1238.82px;"></div><div class="nav-tabs-indicator" style="left: 0px; right: 1238.82px;"></div><div class="nav-tabs-indicator" style="left: 0px; right: 1238.82px;"></div></ul>
+<li class="nav-item">
+    <a aria-controls="zerotb" aria-selected="false" class="nav-link" data-toggle="tab" href="#zerotb" id="zerotb-tab" role="tab"><i class="material-icons">format_paint</i> ZeroNet</a>
+  </li>
+<div class="nav-tabs-indicator" style="left: 0px; right: 1238.82px;"></div><div class="nav-tabs-indicator" style="left: 0px; right: 1238.82px;"></div><div class="nav-tabs-indicator" style="left: 0px; right: 1238.82px;"></div><div class="nav-tabs-indicator" style="left: 0px; right: 1238.82px;"></div></ul>
 </div><div class="tab-content" id="justifiedTabContent">
   <div aria-labelledby="pages-tab" class="tab-pane fade active show" id="pages" role="tabpanel">
 <div class="nav-tabs-scrollable">
@@ -125,7 +128,7 @@
 <li class="nav-item">
     <a aria-controls="navigation" aria-selected="false" class="nav-link" data-toggle="tab" href="#navigation" id="navigation-tab" role="tab"><i class="material-icons">view_list</i> Navigation</a>
   </li>
-<div class="nav-tabs-indicator" style="left: 0px; right: 1238.82px;"></div><div class="nav-tabs-indicator" style="left: 0px; right: 1238.82px;"></div><div class="nav-tabs-indicator" style="left: 0px; right: 1223.33px;"></div><div class="nav-tabs-indicator" style="left: 0px; right: 1223.33px;"></div></ul>
+<div class="nav-tabs-indicator" style="left: 0px; right: 1238.82px;"></div><div class="nav-tabs-indicator" style="left: 0px; right: 1238.82px;"></div><div class="nav-tabs-indicator" style="left: 0px; right: 1223.33px;"></div><div class="nav-tabs-indicator" style="left: 0px; right: 1223.33px;"></div><div class="nav-tabs-indicator" style="left: 0px; right: 1223.33px;"></div></ul>
 </div>
 <div class="tab-content" id="justifiedTabContent">
   <div aria-labelledby="reading-tab" class="tab-pane fade active show" id="reading" role="tabpanel"><h1><i class="material-icons">format_color_text</i> Headings</h1><h1>Heading 1</h1><h2>Heading 2</h2><h3>Heading 3</h3><h4>Heading 4</h4><h5>Heading 5</h5><h6>Heading 6</h6><br><textarea onclick="this.focus();this.select()" readonly="readonly" style="margin:6px 41px;width: 392px;height: 44px;">&lt;h1&gt;Heading 1&lt;/h1&gt;
@@ -409,6 +412,29 @@
 <h5 class="color">Heading 5</h5>
 <h6 class="color">Heading 6</h6><span class="badge color">Badge</span><p class="color">Paragraph</p>
 <span class="color">Span</span></div>
+<div aria-labelledby="zerotb-tab" class="tab-pane fade" id="zerotb" role="tabpanel"><p>FrameworkJS is the world's first click-to-clone/start web framework! Also, it is the first working and near-complete framework/boilerplate on ZeroNet.</p><p>There are some exclusive and funny things for ZeroNet.</p>
+<h1><i class="material-icons">add_circle</i> Zite clone</h1>
+<p>To make your users able to have a clone of your zite.</p>
+<p>Did you saw the "<a onclick="clone()" title="You can also see it working by clicking here! Hehe :D"><i class="material-icons">add_circle</i> Create your own zite</a>" button? It gives you a personalized clone of FrameworkJS. You can also make your zite (ZeroNet sites are called zites) cloneable by putting the following value on your element:</p>
+<code>onclick="clone()"</code>
+    <p>It calls the following function:</p>
+<blockquote>/*Clones FrameworkJS and opens your own project*/
+function clone() {
+    return zeroPage.getSiteInfo().then(function(siteInfo){zeroPage.cmd("siteClone", [siteInfo.address])});
+}</blockquote>
+<h2><i class="material-icons">add_circle</i> Custom clone</h2>
+<p>You can create many custom clonning functions as you need, to clone a specific zite or a merged one. You can use a string instead of static address.</p>
+<p>The bellow example, is also included in page-common.js:</p>
+<blockquote>/*Clones the zite you want. You can use this as model to create your own clonning functions*/
+function cloneselect() {
+return zeroPage.cmd("siteClone", ["1Fmwk685eaX7GjoQ7JKo3QvywizGfnYRCB"]);
+}</blockquote>
+<p>An good example of clonning is Git Center, that clones a git template merged zite, to create your own repo.</p>
+<h1><i class="material-icons">view_list</i> Change display according to location: ZeroNet or Clearnet</h1>
+<p>Want to avoid confusions of your site on Internet (WWW/Clearnet) and ZeroNet? Want to say something that applies for Clearnet but not for ZeroNet, or else?</p>
+<p>Simply, use <code>&lt;clearnet&gt;</code> or <code>&lt;zeronet&gt;</code> tags, and anything included on those tags will be shown or hidden according to the location.</p>
+<h1>Other things</h1>
+<p>To learn more about ZeroNet development, visit the <a href="https://zeronet.io/docs/" target="blank">Official Documentation</a> or <a href="https://daniellmesquita.gitbook.io/the-truth-about-zeronet/" target="blank">The truth about ZeroNet</a>.</p></div>
 
 
 </div>

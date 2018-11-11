@@ -1,3 +1,5 @@
+closeable tabs
+
 .color-bg {background:#00A185}
 .color-txt {color:#00A185}
 .gradient-bg {
@@ -13,6 +15,7 @@ C:\Users\Notebook Positivo\fmwk
 
 docs:
 zeronet clone
+zeronet tab in elements
 <zeronet> <clearnet> tags
 vanity-gen address
 
@@ -20,15 +23,7 @@ links to other frameworkjs places
 suggest to download ZeroNet
 link on bootstrap material
 
-https://css-tricks.com/now-ever-might-not-need-jquery/
-
-https://github.com/vuetifyjs/vuetify-loader
-
-<meta name="theme-color" content="#004863">
-
 https://yoast.com/dev-blog/safari-pinned-tab-icon-mask-icon/
-
-zeronet tab in elements
 
 modification date
 
@@ -52,7 +47,12 @@ fix error in tiled list
 build instructions
 Upgr guide
 
-zn download
-
 https://github.com/donnemartin/system-design-primer
-ready-sites: Plasnerd, P crpt, Gittex, Notestick, ultracreator, YM
+ready-sites: Eventlr, Plasnerd, Floflis
+P crpt, Gittex, Notestick, ultracreator, YM
+
+https://css-tricks.com/now-ever-might-not-need-jquery/
+
+https://github.com/vuetifyjs/vuetify-loader
+
+<meta name="theme-color" content="#004863">
