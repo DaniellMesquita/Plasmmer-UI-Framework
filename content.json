@@ -117,12 +117,12 @@
    "size": 0
   },
   "css/dark-common.css": {
-   "sha512": "d2370a05daa6817150bc7984e27d4896ee39193e01b46660ad01fa0544b2389f",
-   "size": 1405
+   "sha512": "504bd65b7feb9b9967c7a8d15c1fa76234489347fc9a2959ef55e0334ab4cdaf",
+   "size": 1626
   },
   "css/page-common.css": {
-   "sha512": "d04b385db30c90af8bc94fbf9528ec2d21ec3affe8f93336838d19721113311d",
-   "size": 12083
+   "sha512": "7e32055e571864bddb94bd1f9bd49dc774d27cdd5588dc5984c2c574049c6c4f",
+   "size": 12154
   },
   "css/page-custom.css": {
    "sha512": "cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce",
@@ -547,11 +547,11 @@
  },
  "ignore": "(^.git)",
  "inner_path": "content.json",
- "modified": 1541907628,
+ "modified": 1541909142,
  "postmessage_nonce_security": true,
  "signers_sign": "GxPcc7gTaIO5FSW0SpB7qerY9S/GUhbzfpFhwN4+XFtcGjd0U9gPPLi0Tm9ddT01FEG1lt/49XGoGPIxz2o81qs=",
  "signs": {
-  "1Fmwk685eaX7GjoQ7JKo3QvywizGfnYRCB": "G54Lh4ZDwl8gawFIrmLuaesIOZTf6RfWq+ZWvD/rhvjxLfUkLjnREWATf3LHmWT/tlDouQJ6BiOjJA3UcXPbH9A="
+  "1Fmwk685eaX7GjoQ7JKo3QvywizGfnYRCB": "Gz7zvvI/admxIh9b28AE4iwL+eiz1K7M1ngaRyT9qxbbCvpoD+0jgNGbOYTIF1KdQ0lXEkKLdUyWNQRSvqJgb/E="
  },
  "signs_required": 1,
  "title": "Framework.js",

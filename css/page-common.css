@@ -249,7 +249,8 @@ header nav ul li p {
 }
 
 header nav ul li div i {
-    font-size: 35px;
+    font-size: 35px!important;
+	vertical-align:-2px!important;
 }
 
 .navmenu {
