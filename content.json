@@ -121,7 +121,7 @@
    "size": 1696
   },
   "css/page-common.css": {
-   "sha512": "891a66bb8ecafaa510af0a5479abc0aa2cb9dab1cfe25387c6ba5c7f91cabe9e",
+   "sha512": "6d0f6c84ef55e211671e2e8145e60a4f7aeda422e88e7e41021153319693eae2",
    "size": 11611
   },
   "css/page-custom.css": {
@@ -547,11 +547,11 @@
  },
  "ignore": "(^.git)",
  "inner_path": "content.json",
- "modified": 1541952518,
+ "modified": 1541953222,
  "postmessage_nonce_security": true,
  "signers_sign": "GxPcc7gTaIO5FSW0SpB7qerY9S/GUhbzfpFhwN4+XFtcGjd0U9gPPLi0Tm9ddT01FEG1lt/49XGoGPIxz2o81qs=",
  "signs": {
-  "1Fmwk685eaX7GjoQ7JKo3QvywizGfnYRCB": "GyR9GcsMa3RbTKivpRAZPqVLNhMiFL0KxIqLMHTENIb5LmbPS5uxmxBs8FGUa8CKbO0QvVBfPKh1KTE2RojZTIg="
+  "1Fmwk685eaX7GjoQ7JKo3QvywizGfnYRCB": "HAHvQbcV1MdbJoxtkqUMH43xcPTYDsXlddPbbjJBDsNNF+Aom0eg1Tbwt4MUzRLUdtlEyjwZu5FkIbCVVbxs0jE="
  },
  "signs_required": 1,
  "title": "Framework.js",
