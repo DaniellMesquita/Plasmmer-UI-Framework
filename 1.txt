@@ -1,6 +1,8 @@
 C:\Users\Notebook Positivo\fmwk
 link on bootstrap material
 
+doc new css classes
+
 detect if: zeronet, zeronet-proxy, clearnet
 
 comments zn
