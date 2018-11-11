@@ -165,6 +165,18 @@ ul.tiled.longcard li div{width:315px;height:70px;opacity:0.5;position: relative;
 .nav-tabs .nav-link.active{color:#00A185!important;font-weight:bold!important}
 .nav-tabs .nav-link::before{background-color:#00A185!important;height: .250rem!important}
 
+.closable .close {
+  color: #000 !important;
+  background: #fff !important;
+  padding: 0 3px 0 3px;
+  z-index: 1;
+  position: relative;
+}
+.closable .close:hover {
+  color: #fff !important;
+  background: #FF4136 !important;
+}
+
 header nav {
     position: absolute;
     right: 0;

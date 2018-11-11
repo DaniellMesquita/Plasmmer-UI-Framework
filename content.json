@@ -9,8 +9,8 @@
  "favicon": "icon.png",
  "files": {
   "1.txt": {
-   "sha512": "86ee11ec33f0d1a93395906fe93bdac7bc441dd57c7bd9574fc9bac689e20c2f",
-   "size": 1285
+   "sha512": "65e96fcbc13a8996191ef4817fcb6df6f33bfaf7a26671c2edbe6fd429e97ba9",
+   "size": 1138
   },
   "14AYuS7E5gtiAaJKo1HMXnZnGUtiymb6Rt - Shortcut.lnk": {
    "sha512": "773ca4434b66278c0d7cf398e27ce57afe395d274e3a195e4d404160ddb9bff6",
@@ -121,12 +121,12 @@
    "size": 0
   },
   "css/dark-common.css": {
-   "sha512": "a5381b28c3ed28ba181b5e8705ba20f117b870c62de253d92ba2e4667c26e6b8",
-   "size": 2022
+   "sha512": "78b5d49c996335bccaf83defcbc327553a7fe9fcd4b6ddbe6735d92b5de4b911",
+   "size": 2239
   },
   "css/page-common.css": {
-   "sha512": "6d0f6c84ef55e211671e2e8145e60a4f7aeda422e88e7e41021153319693eae2",
-   "size": 11611
+   "sha512": "71711ab5a38ee69851ce4fd30638d41ee3696336647a481a4e172ba57e24922e",
+   "size": 11803
   },
   "css/page-custom.css": {
    "sha512": "cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce",
@@ -137,8 +137,8 @@
    "size": 90
   },
   "elements.html": {
-   "sha512": "9a5930848b98f70d40af676c0142a851a4626c998af7f4af05ae297f4c1338a5",
-   "size": 45765
+   "sha512": "6b2aef5696dd9c2c7758cb8468d2f3030885d1f4a007a391b857b298b963c0ff",
+   "size": 48550
   },
   "icon-default.png": {
    "sha512": "74369e9c113f9535d511e8f800955f1c9204fabe6b91ece8a0cd47dc3d01bdf0",
@@ -365,7 +365,7 @@
    "size": 8542
   },
   "index.html": {
-   "sha512": "745a066b0c4410fd7d74af0afe7dac7591af5c0eaffe7d33d0fd32682896bb7c",
+   "sha512": "cb9f4f64aa6a8e64983a98eb342405c76b1cd8d6716c69f15e3e42de4e702336",
    "size": 27539
   },
   "js/ZeroFrame.js": {
@@ -551,11 +551,11 @@
  },
  "ignore": "(^.git)",
  "inner_path": "content.json",
- "modified": 1541956112,
+ "modified": 1541968352,
  "postmessage_nonce_security": true,
  "signers_sign": "GxPcc7gTaIO5FSW0SpB7qerY9S/GUhbzfpFhwN4+XFtcGjd0U9gPPLi0Tm9ddT01FEG1lt/49XGoGPIxz2o81qs=",
  "signs": {
-  "1Fmwk685eaX7GjoQ7JKo3QvywizGfnYRCB": "HDfU2TG1FK2jT4xT2Ihg6FvsTASsy0ASyBToiwlTqsYdKNWd3PtG2ZZr8TlQ5bp++0Joze9Qzhp1ejva9b4OfCE="
+  "1Fmwk685eaX7GjoQ7JKo3QvywizGfnYRCB": "HM5Qrh/ZS8SgWGfiRDeU/uXITMm95SbXu2vX9J37BBt7MFSj4Y7qjo4DxJEeTPzchbktxWmfSqDC2My/LzcAXFI="
  },
  "signs_required": 1,
  "title": "Framework.js",

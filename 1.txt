@@ -1,33 +1,5 @@
-closeable tabs
-
-.color-bg {background:#00A185}
-.color-txt {color:#00A185}
-.gradient-bg {
-background: -webkit-linear-gradient(left, rgb(100, 230, 227), rgb(0, 161, 133), rgb(51, 51, 51) 70%)
-}
-.gradient-text {
-background: -webkit-linear-gradient(left, rgb(100, 230, 227), rgb(0, 161, 133), rgb(51, 51, 51) 70%);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent
-}
-
 C:\Users\Notebook Positivo\fmwk
-
-docs:
-zeronet clone
-zeronet tab in elements
-<zeronet> <clearnet> tags
-vanity-gen address
-
-links to other frameworkjs places
-suggest to download ZeroNet
 link on bootstrap material
-
-https://yoast.com/dev-blog/safari-pinned-tab-icon-mask-icon/
-
-modification date
-
-header menu
 
 detect if: zeronet, zeronet-proxy, clearnet
 
@@ -37,22 +9,17 @@ remove inline ul's overflow hidden
 
 new HTML structure in elements
 
-Vue Material messages
 show warn when framework is outdated
 
 fix sticky button link
 breadcrumbs
-fix error in tiled list
 
 build instructions
 Upgr guide
 
-https://github.com/donnemartin/system-design-primer
 ready-sites: Eventlr, Plasnerd, Floflis
 P crpt, Gittex, Notestick, ultracreator, YM
 
 https://css-tricks.com/now-ever-might-not-need-jquery/
-
 https://github.com/vuetifyjs/vuetify-loader
-
-<meta name="theme-color" content="#004863">
+https://github.com/donnemartin/system-design-primer
