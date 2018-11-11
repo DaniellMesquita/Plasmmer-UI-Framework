@@ -361,7 +361,7 @@
    "size": 8539
   },
   "index.html": {
-   "sha512": "0386442d33cc7db5987b654c1b780ff8a953b4a758e522cc224e8185f3d4096d",
+   "sha512": "c45f5bfac2d8e3c945e9e3de644fa105d674257f8b7ca52f745b4847fe77614f",
    "size": 26959
   },
   "js/ZeroFrame.js": {
@@ -547,11 +547,11 @@
  },
  "ignore": "(^.git)",
  "inner_path": "content.json",
- "modified": 1541898094,
+ "modified": 1541904627,
  "postmessage_nonce_security": true,
  "signers_sign": "GxPcc7gTaIO5FSW0SpB7qerY9S/GUhbzfpFhwN4+XFtcGjd0U9gPPLi0Tm9ddT01FEG1lt/49XGoGPIxz2o81qs=",
  "signs": {
-  "1Fmwk685eaX7GjoQ7JKo3QvywizGfnYRCB": "G8NtKk5p3OnUDLCdZdsSG2z5GdatracAwuLMtso42xbCJO6IhoBSqAHCru+YgkQULGftytvIzIu2ZLFz9GDMQqU="
+  "1Fmwk685eaX7GjoQ7JKo3QvywizGfnYRCB": "HI7ekqSlaNPJjoEm5KupyrmVKt2EJylxRMBN+7xySaYqeJmM91NIrrpboLrZ5AHE0oS0gh7wewMq69a9ls3iHBY="
  },
  "signs_required": 1,
  "title": "Framework.js",
