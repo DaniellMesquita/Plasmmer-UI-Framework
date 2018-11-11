@@ -47,6 +47,8 @@ button:not(.md-button):hover {
     background: #a7a7a7!important;
     color: #000!important;
 }
+button.color{background:#00A185;color:#fffc;font-weight:bold;padding:10px;font-size:16px}
+button.color:hover{background:#ffffffb3;color:#00A185}
 .header, header {
     background: #00A18570!important;
 }
