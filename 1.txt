@@ -16,7 +16,9 @@ zeronet clone
 <zeronet> <clearnet> tags
 vanity-gen address
 
-Vue Material tabs
+links to other frameworkjs places
+suggest to download ZeroNet
+link on bootstrap material
 
 https://css-tricks.com/now-ever-might-not-need-jquery/
 
