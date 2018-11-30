@@ -6,7 +6,7 @@ nopehtml{display:none}
 
 .color-bg {background:#00A185}
 
-body{background:rgb(239, 239, 239);font-family: Roboto;-webkit-font-smoothing:antialiased;line-height:inherit!important;margin:0;-webkit-user-select:none;-moz-user-select:none;user-select:none}
+body{background:rgb(239, 239, 239);font-family: Roboto,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;-webkit-font-smoothing:antialiased;line-height:inherit!important;margin:0;-webkit-user-select:none;-moz-user-select:none;user-select:none}
 
 .header,header{background:#00A185;position:fixed;top:0;left:0;width:100%;height:60px;border-bottom: 1px solid rgba(0, 0, 0, 0.5);box-shadow: 0 0 15px 1px black;color:#fff;padding-left:20px;z-index:5000}
 .header,header:hover{box-shadow:0px 0px 25px 5px #000}
@@ -95,18 +95,18 @@ code {
 .textarea, textarea:hover{border:1px solid transparent}
 .textarea, textarea:focus{background:transparent}
 
-button:not(.md-button) {
+button:not(.md-button):not(.btn) {
     border: 1px solid #333;
     border-radius: 4px;
     background: #ddd;
     color: #000;
     padding: 5px
 }
-button:not(.md-button):hover {
+button:not(.md-button):not(.btn):hover {
     background: #000;
     color: #ddd
 }
-button:not(.md-button):active {
+button:not(.md-button):not(.btn):active {
     filter: opacity(0.5)
 }
 button.color{background:#00A185;color:#fff;font-weight:bold;padding:10px;font-size:16px}

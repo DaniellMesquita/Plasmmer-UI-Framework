@@ -46,11 +46,11 @@ code {
     color: #8e9194!important;
 }
 .textarea, textarea:focus{background: transparent!important}
-button:not(.md-button) {
+button:not(.md-button):not(.btn) {
     background: #000!important;
     color: #a7a7a7!important;
 }
-button:not(.md-button):hover {
+button:not(.md-button):not(.btn):hover {
     background: #a7a7a7!important;
     color: #000!important;
 }
