@@ -9,8 +9,8 @@
  "favicon": "icon.png",
  "files": {
   "1.txt": {
-   "sha512": "65e96fcbc13a8996191ef4817fcb6df6f33bfaf7a26671c2edbe6fd429e97ba9",
-   "size": 1138
+   "sha512": "50da7d811bcd21f6ed5b74256cdc8ef61b3325255e082d65697d7243c7617d08",
+   "size": 534
   },
   "14AYuS7E5gtiAaJKo1HMXnZnGUtiymb6Rt - Shortcut.lnk": {
    "sha512": "773ca4434b66278c0d7cf398e27ce57afe395d274e3a195e4d404160ddb9bff6",
@@ -121,12 +121,12 @@
    "size": 0
   },
   "css/dark-common.css": {
-   "sha512": "78b5d49c996335bccaf83defcbc327553a7fe9fcd4b6ddbe6735d92b5de4b911",
-   "size": 2239
+   "sha512": "ca807240aa4bc4e92ad3b9d7e9d688b4e06b80c80b027554a047e3c11b73ded4",
+   "size": 2303
   },
   "css/page-common.css": {
-   "sha512": "71711ab5a38ee69851ce4fd30638d41ee3696336647a481a4e172ba57e24922e",
-   "size": 11803
+   "sha512": "cab9c57c23909bc27a2aea19a53ff4a090d1a3cadd8455bf506e1f428c925310",
+   "size": 12228
   },
   "css/page-custom.css": {
    "sha512": "cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce",
@@ -137,8 +137,8 @@
    "size": 90
   },
   "elements.html": {
-   "sha512": "6b2aef5696dd9c2c7758cb8468d2f3030885d1f4a007a391b857b298b963c0ff",
-   "size": 48550
+   "sha512": "442efb25d7037c36190947a554be10c01502bb4b0616639c136936cdea4351b4",
+   "size": 49571
   },
   "icon-default.png": {
    "sha512": "74369e9c113f9535d511e8f800955f1c9204fabe6b91ece8a0cd47dc3d01bdf0",
@@ -365,8 +365,8 @@
    "size": 8542
   },
   "index.html": {
-   "sha512": "cb9f4f64aa6a8e64983a98eb342405c76b1cd8d6716c69f15e3e42de4e702336",
-   "size": 27539
+   "sha512": "1e0c381979fe22b920bda5480baec280e701d959e58520b9c1734d088651f730",
+   "size": 27828
   },
   "js/ZeroFrame.js": {
    "sha512": "25624cbfc07b6d208cbef3200876c4ba5b5ac0be83a395f0911a02bee5f33965",
@@ -551,11 +551,11 @@
  },
  "ignore": "(^.git)",
  "inner_path": "content.json",
- "modified": 1541968352,
+ "modified": 1544102385,
  "postmessage_nonce_security": true,
  "signers_sign": "GxPcc7gTaIO5FSW0SpB7qerY9S/GUhbzfpFhwN4+XFtcGjd0U9gPPLi0Tm9ddT01FEG1lt/49XGoGPIxz2o81qs=",
  "signs": {
-  "1Fmwk685eaX7GjoQ7JKo3QvywizGfnYRCB": "HM5Qrh/ZS8SgWGfiRDeU/uXITMm95SbXu2vX9J37BBt7MFSj4Y7qjo4DxJEeTPzchbktxWmfSqDC2My/LzcAXFI="
+  "1Fmwk685eaX7GjoQ7JKo3QvywizGfnYRCB": "GyXIJ5hmYmDgbI48q0sQAo56JtJp7dL6LrTlHmctgE28ODtluxqFzD7exLoa6Lp79gFHnqH+DFSD9wfaj51nVNE="
  },
  "signs_required": 1,
  "title": "Framework.js",

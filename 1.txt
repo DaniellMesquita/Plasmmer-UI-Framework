@@ -1,13 +1,9 @@
 C:\Users\Notebook Positivo\fmwk
 link on bootstrap material
 
-doc new css classes
-
 comments zn
 
 remove inline ul's overflow hidden
-
-new HTML structure in elements
 
 show warn when framework is outdated
 

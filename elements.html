@@ -62,41 +62,51 @@
 <p>After <a href="index.html#download" target="blank">download</a> and follow the <a href="index.html#instructions" target="blank">instructions</a>, here is the page for you start inserting elements to your page/app that uses the power of Framework.js!</p><p>The HTML structure of a Framework.js page (including PEHTML):</p><textarea onclick="this.focus();this.select()" readonly="readonly" style="margin:6px 41px;width: 392px;height: 44px;">&lt;!DOCTYPE html&gt;
 &lt;html lang=""&gt;
 &lt;head&gt;
-&lt;script type="text/javascript" src="js/jquery.min.js"&gt;&lt;/script&gt;
-&lt;script type="text/javascript" src="js/app-common.js"&gt;&lt;/script&gt;
+&lt;title color=""&gt;&lt;/title&gt;
+&lt;meta charset="utf-8"&gt;
+&lt;meta http-equiv="content-type" content="text/html; charset=utf-8" /&gt;
+&lt;meta content="width=device-width,initial-scale=1,minimal-ui,shrink-to-fit=no" name="viewport"&gt;
+&lt;link rel="icon" href="" /&gt;
+&lt;link rel="logo" href=".svg" border="true"/&gt;
+&lt;base href="" target="_top" id="base"&gt;
+
+&lt;script&gt;base.href = document.location.href.replace("/media", "").replace("index.html", "").replace(/[&amp;?]wrapper=False/, "").replace(/[&amp;?]wrapper_nonce=[A-Za-z0-9]+/, "")&lt;/script&gt;
+&lt;!--  &lt;link rel="stylesheet" href="https://unpkg.com/vue-material@beta/dist/vue-material.min.css"&gt;
+  &lt;link rel="stylesheet" href="https://unpkg.com/vue-material@beta/dist/theme/default.css"&gt;--&gt;
+&lt;script type="text/javascript" src="plugins/jQuery/jquery.min.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="plugins/Popper.js/popper.min.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="plugins/Bootstrap/js/bootstrap.min.js"&gt;&lt;/script&gt;
+&lt;script src="plugins/Bootstrap/themes/material/js/material.min.js"&gt;&lt;/script&gt;
+&lt;zeronet&gt;&lt;script type="text/javascript" src="js/ZeroFrame.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="plugins/ZeroDevLib/ZeroPage.js"&gt;&lt;/script&gt;&lt;/zeronet&gt;
+&lt;script type="text/javascript" src="js/page-common.js"&gt;&lt;/script&gt;
+&lt;link href="plugins/Bootstrap/themes/material/css/material.min.css" rel="stylesheet"&gt;
 &lt;link rel="stylesheet" type="text/css" href="css/page-common.css"&gt;
 &lt;link rel="stylesheet" type="text/css" href="css/app-common.css"&gt;
 &lt;link rel="stylesheet" type="text/css" href="css/page-custom.css"&gt;
 &lt;link rel="stylesheet" type="text/css" href="css/app-custom.css"&gt;
 &lt;link href="Fonts/Roboto/font.css" rel="stylesheet"&gt;
 &lt;link href="Fonts/Material Icons/font.css" rel="stylesheet"&gt;
-&lt;link rel="icon" href="icon.png" /&gt;
-&lt;link rel="logo" href="icon.svg" border="true" /&gt;
-&lt;title color=""&gt;&lt;/title&gt;
+&lt;zeronet&gt;&lt;link href="Fonts/Text Me One/font.css" rel="stylesheet"&gt;&lt;/zeronet&gt;
 &lt;meta name="pehtml" content="true"&gt;
-&lt;meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1"&gt;
 &lt;meta name="directory" content="css, js, img, snd"&gt;
 &lt;meta name="description" content=""&gt;
 &lt;meta name="keywords" content=""&gt;
 &lt;/head&gt;
-&lt;body&gt;
-&lt;header&gt;&lt;logo&gt;&lt;/logo&gt;&lt;/header&gt;
-&lt;div class="content"&gt;
-&lt;article&gt;
-&lt;/article&gt;
-&lt;comments&gt;
-&lt;h1 id="comments"&gt;&lt;i class="material-icons"&gt;comment&lt;/i&gt; Comments &lt;span class="badge"&gt;&lt;/span&gt;&lt;/h1&gt;
-&lt;blockquote&gt;
-&lt;/blockquote&gt;
-&lt;/comments&gt;
-&lt;div class="footer-shadow"&gt;&lt;/div&gt;
-&lt;footer&gt;
-&lt;center&gt;LAST UPDATE DATE&lt;/center&gt;&lt;a href="https://plasnerd.github.io/Framework.js/" target="blank"&gt;&lt;img src="https://plasnerd.github.io/Framework.js/img/seal-1.png" width="167px" height="94px" style="-webkit-user-drag:element;margin-right:5px"&gt;&lt;/a&gt;&lt;a href="https://plasnerd.github.io/PEHTML/" target="blank" style="opacity:1"&gt;&lt;img src="https://plasnerd.github.io/PEHTML/img/seal-2.png" width="167px" height="94px" style="-webkit-user-drag:element"&gt;&lt;/a&gt;
-&lt;div class="social-icons"&gt;&lt;/div&gt;
-&lt;div class="social-buttons"&gt;&lt;/div&gt;
-&lt;copyright&gt;&lt;/copyright&gt;
-&lt;/footer&gt;
+&lt;body id="body"&gt;
+&lt;div id="app"&gt;
 &lt;/div&gt;
+
+&lt;!--  &lt;script type="text/javascript" src="plugins/UmbrellaJS/umbrella.min.js"&gt;&lt;/script&gt;
+  &lt;script type="text/javascript" src="plugins/VueJS/vue.js"&gt;&lt;/script&gt;
+  &lt;script src="https://unpkg.com/vue-material@beta"&gt;&lt;/script&gt;
+  &lt;script&gt;
+      Vue.use(VueMaterial.default)
+
+      new Vue({
+        el: '#app'
+      })
+    &lt;/script&gt;--&gt;
 &lt;/body&gt;
 &lt;/html&gt;</textarea><p>Use the <code>/blank</code> folder in the <code>framework.zip</code> archive if you want to start a new project.</p>
 
@@ -418,7 +428,10 @@
 <h4 class="color">Heading 4</h4>
 <h5 class="color">Heading 5</h5>
 <h6 class="color">Heading 6</h6><span class="badge color">Badge</span><p class="color">Paragraph</p>
-<span class="color">Span</span></div>
+<span class="color">Span</span>
+<h1>.color-bg</h1>
+<p>Elements with this class will have a background with the site's theme color.</p>
+</div>
 <div aria-labelledby="zerotb-tab" class="tab-pane fade" id="zerotb" role="tabpanel"><p>FrameworkJS is the world's first click-to-clone/start web framework! Also, it is the first working and near-complete framework/boilerplate on ZeroNet.</p><p>There are some exclusive and funny things for ZeroNet.</p>
 <h1><i class="material-icons">add_circle</i> Zite clone</h1>
 <p>To make your users able to have a clone of your zite.</p>
