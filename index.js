@@ -1,4 +1,44 @@
 window.onload = function(){
+ 
+var OSName="Unknown OS";
+if (navigator.appVersion.indexOf("Win")!=-1) OSName="Windows";
+if (navigator.appVersion.indexOf("Mac")!=-1) OSName="MacOS";
+if (navigator.appVersion.indexOf("X11")!=-1) OSName="UNIX";
+if (navigator.appVersion.indexOf("Linux")!=-1) OSName="Linux";
+if (navigator.userAgent.indexOf("Mozilla/5.0 (Mobile; rv")!=-1) OSName="Firefox OS";
+if (navigator.userAgent.indexOf("Mozilla/5.0 (Mobile; rv:48.0")!=-1) OSName="KaiOS";
+//console.log('Your OS: '+OSName);
+///alert('Your OS: '+OSName);
+
+if(OSName == 'Firefox OS'){
+        console.log("Environment detected: Firefox OS.");
+        var environmenttext = document.getElementById('environment');
+        var text = document.createTextNode("Firefox OS");
+        environmenttext.appendChild(text);
+}
+
+if(OSName == 'KaiOS'){
+        console.log("Environment detected: KaiOS.");
+        var environmenttext = document.getElementById('environment');
+        var text = document.createTextNode("KaiOS");
+        environmenttext.appendChild(text);
+}
+
+//if ((OSName !== 'Firefox OS') || (OSName !== 'KaiOS')){
+//        console.log("Environment detected: Not Firefox OS and not KaiOS.");
+//        var environmenttext = document.getElementById('environment');
+//        var text = document.createTextNode("Not Firefox OS and not KaiOS.");
+//        environmenttext.appendChild(text);
+//}
+
+if (OSName !== 'Firefox OS'){
+        if (OSName !== 'KaiOS'){
+                console.log("Environment detected: Not Firefox OS and not KaiOS.");
+                var environmenttext = document.getElementById('environment');
+                var text = document.createTextNode("Not Firefox OS and not KaiOS.");
+                environmenttext.appendChild(text);
+}
+}
 
 if("file:" == document.location.protocol)
 	{
@@ -41,31 +81,6 @@ if((navigator.userAgent.indexOf("Opera") || navigator.userAgent.indexOf('OPR')) 
 //function setInnerHTML(element, content) {
 //    element.innerHTML = content;
 //    return element;
-//}
-
-var OSName="Unknown OS";
-if (navigator.appVersion.indexOf("Win")!=-1) OSName="Windows";
-if (navigator.appVersion.indexOf("Mac")!=-1) OSName="MacOS";
-if (navigator.appVersion.indexOf("X11")!=-1) OSName="UNIX";
-if (navigator.appVersion.indexOf("Linux")!=-1) OSName="Linux";
-if (navigator.userAgent.indexOf("Mozilla/5.0 (Mobile; rv")!=-1) OSName="Firefox OS";
-if (navigator.userAgent.indexOf("Mozilla/5.0 (Mobile; rv:48.0")!=-1) OSName="KaiOS";
-console.log('Your OS: '+OSName);
-//alert('Your OS: '+OSName);
-
-if(OSName == 'Firefox OS'){
-        console.log("Environment detected: Firefox OS.");
-        var environmenttext = document.getElementById('environment');
-        var text = document.createTextNode("Firefox OS");
-        environmenttext.appendChild(text);
-        //document.getElementsByTagName('body')[0].appendChild(setInnerHTML(document.createElement("div"), "Firefox OS"));
-}
-
-if(OSName == 'KaiOS'){
-        console.log("Environment detected: KaiOS.");
-        var environmenttext = document.getElementById('environment');
-        var text = document.createTextNode("KaiOS");
-        environmenttext.appendChild(text);
-}
+//} 
 
 }
