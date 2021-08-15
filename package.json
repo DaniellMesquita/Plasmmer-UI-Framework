@@ -1,6 +1,6 @@
 {
   "name": "fmwk",
-  "version": "1.0.0",
+  "version": "3",
   "description": "The framework for the Web 3.0",
   "main": "index.js",
   "scripts": {
