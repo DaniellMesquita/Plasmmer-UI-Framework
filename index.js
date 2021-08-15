@@ -22,6 +22,15 @@ if(OSName == 'KaiOS'){
         var environmenttext = document.getElementById('environment');
         var text = document.createTextNode("KaiOS");
         environmenttext.appendChild(text);
+        //document.querySelector("#head").innerHTML += `<script type="text/javascript" src="platform-kaios.js"></script>`;
+        //document.getElementsByTagName('head')[0].appendChild = '<script type="text/javascript" src="platform-kaios.js"></script>'
+        //document.querySelector("#head").writeln = `<script type="text/javascript" src="platform-kaios.js"></script>`;
+        requirejs(["platform-kaios.js"], function(util) {
+    //This function is called when scripts/helper/util.js is loaded.
+    //If util.js calls define(), then this function is not fired until
+    //util's dependencies have loaded, and the util argument will hold
+    //the module value for "helper/util".
+});
 }
 
 //if ((OSName !== 'Firefox OS') || (OSName !== 'KaiOS')){
