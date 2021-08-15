@@ -15,3 +15,29 @@ document.querySelector("#body").innerHTML += `<footer class="softkey"><div id="s
 document.querySelector("#body").innerHTML += `<style>h1{font-size:25px}span{font-size:12px}h2{font-size:20px}</style>`;
 document.querySelector("#landinglogo").innerHTML = `<img width="50px" src="logo.svg"/>`;
 document.querySelector("#landingtitle").innerHTML = ``;
+
+const softkeyCallback = {
+    left: function() { console.log('You click on SoftLeft') },
+    center: function() { document.location.reload(true) },
+    right: function() { console.log('You click on SoftRight') }
+};
+function handleKeyDown(evt) {
+    switch (evt.key) {
+        case 'SoftLeft':
+            // Action case press left key
+            softkeyCallback.left();
+        break;
+
+        case 'SoftRight':
+            // Action case press right key
+            softkeyCallback.right();
+        break;
+
+        case 'Enter':
+            // Action case press center key
+            softkeyCallback.center();
+        break;
+    }
+};
+
+document.addEventListener('keydown', handleKeyDown);
