@@ -11,14 +11,14 @@ if (navigator.userAgent.indexOf("Mozilla/5.0 (Mobile; rv:48.0")!=-1) OSName="Kai
 ///alert('Your OS: '+OSName);
 
 if(OSName == 'Firefox OS'){
-        console.log("Environment detected: Firefox OS.");
+        console.log("Environment detected: " +OSName +".");
         var environmenttext = document.getElementById('environment');
         var text = document.createTextNode(OSName);
         environmenttext.appendChild(text);
 }
 
 if(OSName == 'KaiOS'){
-        console.log("Environment detected: KaiOS.");
+        console.log("Environment detected: " +OSName +".");
         var environmenttext = document.getElementById('environment');
         var text = document.createTextNode(OSName);
         environmenttext.appendChild(text);
