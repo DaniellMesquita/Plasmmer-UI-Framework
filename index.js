@@ -13,14 +13,14 @@ if (navigator.userAgent.indexOf("Mozilla/5.0 (Mobile; rv:48.0")!=-1) OSName="Kai
 if(OSName == 'Firefox OS'){
         console.log("Environment detected: Firefox OS.");
         var environmenttext = document.getElementById('environment');
-        var text = document.createTextNode("Firefox OS");
+        var text = document.createTextNode(OSName);
         environmenttext.appendChild(text);
 }
 
 if(OSName == 'KaiOS'){
         console.log("Environment detected: KaiOS.");
         var environmenttext = document.getElementById('environment');
-        var text = document.createTextNode("KaiOS");
+        var text = document.createTextNode(OSName);
         environmenttext.appendChild(text);
         //document.querySelector("#head").innerHTML += `<script type="text/javascript" src="platform-kaios.js"></script>`;
         //document.getElementsByTagName('head')[0].appendChild = '<script type="text/javascript" src="platform-kaios.js"></script>'
