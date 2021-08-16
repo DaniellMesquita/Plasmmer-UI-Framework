@@ -10,15 +10,16 @@ if (navigator.userAgent.indexOf("Mozilla/5.0 (Mobile; rv:48.0")!=-1) OSName="Kai
 //console.log('Your OS: '+OSName);
 ///alert('Your OS: '+OSName);
 
+var environmentconsole = "Environment detected: "
 if(OSName == 'Firefox OS'){
-        console.log("Environment detected: " +OSName +".");
+        console.log(environmentconsole +OSName +".");
         var environmenttext = document.getElementById('environment');
         var text = document.createTextNode(OSName);
         environmenttext.appendChild(text);
 }
 
 if(OSName == 'KaiOS'){
-        console.log("Environment detected: " +OSName +".");
+        console.log(environmentconsole +OSName +".");
         var environmenttext = document.getElementById('environment');
         var text = document.createTextNode(OSName);
         environmenttext.appendChild(text);
@@ -42,7 +43,7 @@ if(OSName == 'KaiOS'){
 
 if (OSName !== 'Firefox OS'){
         if (OSName !== 'KaiOS'){
-                console.log("Environment detected: Not Firefox OS and not KaiOS.");
+                console.log(environmentconsole +"Not Firefox OS and not KaiOS.");
                 var environmenttext = document.getElementById('environment');
                 var text = document.createTextNode("Not Firefox OS and not KaiOS.");
                 environmenttext.appendChild(text);
@@ -51,13 +52,13 @@ if (OSName !== 'Firefox OS'){
 
 if("file:" == document.location.protocol)
 	{
-                console.log("Environment detected: File protocol; Local page");
+                console.log(environmentconsole +"File protocol; Local page.");
                 //document.querySelector("#environment").innerHTML = `File protocol; Local page`;
 	}
 
 if("localhost:" == document.location.protocol)
 	{
-                console.log("Environment detected: Localhost");
+                console.log(environmentconsole +"Localhost.");
                 //document.querySelector("#environment").innerHTML = `Localhost`;
 	}
 
