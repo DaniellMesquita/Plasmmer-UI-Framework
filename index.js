@@ -62,7 +62,7 @@ if(OSName == 'Altaica'){
 if("file:" == document.location.protocol)
 	{
                 console.log(envlogtxt +"File protocol; Local page.");
-                //document.querySelector("#environment").innerHTML = `File protocol; Local page`;
+                //document.querySelector("#environment").innerHTML = `File protocol; Local page.`;
 	}
 
 if("localhost:" == document.location.protocol)
@@ -71,20 +71,22 @@ if("localhost:" == document.location.protocol)
                 //document.querySelector("#environment").innerHTML = `Localhost`;
 	}
 	
-if(window.location.href.match(/ba(.*)\.ipfs\./)) {
-       alert("Alert: IPFS!");
-}
+if("ipfs:" == document.location.protocol)
+	{
+                console.log(envlogtxt +"IPFS.");
+                //document.querySelector("#environment").innerHTML = `IPFS`;
+	}
 	
-//if(window.location.href.indexOf("ba"*".ipfs.") > -1) {
-//       alert("Alert: IPFS!");
-//}
+if(window.location.href.match(/ba(.*)\.ipfs\./)) {
+       console.log(envlogtxt +"IPFS.");
+}
 
 if(window.location.href.indexOf("/ipfs/Qm") > -1) {
-       alert("Alert: IPFS!");
+       console.log(envlogtxt +"IPFS.");
 }
 
 if(window.location.href.indexOf("/ipfs/ba") > -1) {
-       alert("Alert: IPFS!");
+       console.log(envlogtxt +"IPFS.");
 }
 
 if((navigator.userAgent.indexOf("Opera") || navigator.userAgent.indexOf('OPR')) != -1 ) 
