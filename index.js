@@ -70,6 +70,22 @@ if("localhost:" == document.location.protocol)
                 console.log(envlogtxt +"Localhost.");
                 //document.querySelector("#environment").innerHTML = `Localhost`;
 	}
+	
+if(window.location.href.match(/ba(.*)\.ipfs\./)) {
+       alert("Alert: IPFS!");
+}
+	
+//if(window.location.href.indexOf("ba"*".ipfs.") > -1) {
+//       alert("Alert: IPFS!");
+//}
+
+if(window.location.href.indexOf("/ipfs/Qm") > -1) {
+       alert("Alert: IPFS!");
+}
+
+if(window.location.href.indexOf("/ipfs/ba") > -1) {
+       alert("Alert: IPFS!");
+}
 
 if((navigator.userAgent.indexOf("Opera") || navigator.userAgent.indexOf('OPR')) != -1 ) 
     {
