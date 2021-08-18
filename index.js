@@ -7,6 +7,8 @@ if (navigator.appVersion.indexOf("X11")!=-1) OSName="UNIX";
 if (navigator.appVersion.indexOf("Linux")!=-1) OSName="Linux";
 if (navigator.userAgent.indexOf("Mozilla/5.0 (Mobile; rv")!=-1) OSName="Firefox OS";
 if (navigator.userAgent.indexOf("Mozilla/5.0 (Mobile; rv:48.0")!=-1) OSName="KaiOS";
+if (navigator.userAgent.indexOf("KAIOS")!=-1) OSName="KaiOS";
+if (navigator.userAgent.indexOf("Altaica")!=-1) OSName="Altaica";
 //console.log('Your OS: '+OSName);
 ///alert('Your OS: '+OSName);
 
@@ -48,6 +50,13 @@ if (OSName !== 'Firefox OS'){
                 var text = document.createTextNode("Not Firefox OS and not KaiOS.");
                 environmenttext.appendChild(text);
 }
+}
+
+if(OSName == 'Altaica'){
+        console.log(envlogtxt +OSName +".");
+        var environmenttext = document.getElementById('environment');
+        var text = document.createTextNode(OSName);
+        environmenttext.appendChild(text);
 }
 
 if("file:" == document.location.protocol)
