@@ -8,6 +8,33 @@ if (navigator.appVersion.indexOf("Linux")!=-1) OSName="Linux";
 
 var envlogtxt = "Environment detected: " // also had to place it again; fix like in the previous
 
+// from https://ourcodeworld.com/articles/read/390/how-to-know-if-your-application-is-running-in-cordova-or-a-web-browser
+if(window.hasOwnProperty("cordova")){
+    console.log(envlogtxt +"Cordova.");
+    var environmenttext = document.getElementById('environment');
+    var text = document.createTextNode(OSName);
+    environmenttext.appendChild(text);
+}
+
+// Or 
+
+if(typeof(cordova) == "object"){
+    console.log(envlogtxt +"Cordova.");
+    var environmenttext = document.getElementById('environment');
+    var text = document.createTextNode(OSName);
+    environmenttext.appendChild(text);
+}
+
+// Or 
+
+if(!!window.cordova){
+    console.log(envlogtxt +"Cordova.");
+    var environmenttext = document.getElementById('environment');
+    var text = document.createTextNode(OSName);
+    environmenttext.appendChild(text);
+}
+// from https://ourcodeworld.com/articles/read/390/how-to-know-if-your-application-is-running-in-cordova-or-a-web-browser
+
 if(OSName == 'Altaica'){
         console.log(envlogtxt +OSName +".");
         var environmenttext = document.getElementById('environment');
