@@ -6,7 +6,7 @@ if (navigator.userAgent.indexOf("KAIOS")!=-1) OSName="KaiOS";
 // start of "window.onload"
 window.onload = function(){
 
-document.querySelector("#body").innerHTML += ``;
+document.querySelector("#splashloader").innerHTML = ``;
 
 var envlogtxt = "Environment detected: "
 if(OSName == 'Firefox OS'){
