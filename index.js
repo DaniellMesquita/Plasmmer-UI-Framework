@@ -46,7 +46,7 @@ if (OSName !== 'Firefox OS'){
                 var environmenttext = document.getElementById('environment');
                 var text = document.createTextNode("Not Firefox OS and not KaiOS.");
                 environmenttext.appendChild(text);
-                requirejs(["platform-not-kaios-firefox.js"], function(util) {
+                requirejs(["platform-not-kaios-not-firefox.js"], function(util) {
     //This function is called when scripts/helper/util.js is loaded.
     //If util.js calls define(), then this function is not fired until
     //util's dependencies have loaded, and the util argument will hold
