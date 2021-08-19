@@ -1,16 +1,12 @@
-window.onload = function(){
- 
 var OSName="Unknown OS";
-if (navigator.appVersion.indexOf("Win")!=-1) OSName="Windows";
-if (navigator.appVersion.indexOf("Mac")!=-1) OSName="MacOS";
-if (navigator.appVersion.indexOf("X11")!=-1) OSName="UNIX";
-if (navigator.appVersion.indexOf("Linux")!=-1) OSName="Linux";
 if (navigator.userAgent.indexOf("Mozilla/5.0 (Mobile; rv")!=-1) OSName="Firefox OS";
 if (navigator.userAgent.indexOf("Mozilla/5.0 (Mobile; rv:48.0")!=-1) OSName="KaiOS";
 if (navigator.userAgent.indexOf("KAIOS")!=-1) OSName="KaiOS";
-if (navigator.userAgent.indexOf("Altaica")!=-1) OSName="Altaica";
-//console.log('Your OS: '+OSName);
-///alert('Your OS: '+OSName);
+
+// start of "window.onload"
+window.onload = function(){
+
+document.querySelector("#body").innerHTML += ``;
 
 var envlogtxt = "Environment detected: "
 if(OSName == 'Firefox OS'){
@@ -45,79 +41,18 @@ if(OSName == 'KaiOS'){
 
 if (OSName !== 'Firefox OS'){
         if (OSName !== 'KaiOS'){
+                document.querySelector("#splashloader").innerHTML = ``;
                 console.log(envlogtxt +"Not Firefox OS and not KaiOS.");
                 var environmenttext = document.getElementById('environment');
                 var text = document.createTextNode("Not Firefox OS and not KaiOS.");
                 environmenttext.appendChild(text);
+                requirejs(["platform-not-kaios-firefox.js"], function(util) {
+    //This function is called when scripts/helper/util.js is loaded.
+    //If util.js calls define(), then this function is not fired until
+    //util's dependencies have loaded, and the util argument will hold
+    //the module value for "helper/util".
+});
 }
 }
 
-if(OSName == 'Altaica'){
-        console.log(envlogtxt +OSName +".");
-        var environmenttext = document.getElementById('environment');
-        var text = document.createTextNode(OSName);
-        environmenttext.appendChild(text);
-}
-
-if("file:" == document.location.protocol)
-	{
-                console.log(envlogtxt +"File protocol; Local page.");
-                //document.querySelector("#environment").innerHTML = `File protocol; Local page.`;
-	}
-
-if("localhost:" == document.location.protocol)
-	{
-                console.log(envlogtxt +"Localhost.");
-                //document.querySelector("#environment").innerHTML = `Localhost`;
-	}
-	
-if("ipfs:" == document.location.protocol)
-	{
-                console.log(envlogtxt +"IPFS.");
-                //document.querySelector("#environment").innerHTML = `IPFS`;
-	}
-	
-if(window.location.href.match(/ba(.*)\.ipfs\./)) {
-       console.log(envlogtxt +"IPFS.");
-}
-
-if(window.location.href.indexOf("/ipfs/Qm") > -1) {
-       console.log(envlogtxt +"IPFS.");
-}
-
-if(window.location.href.indexOf("/ipfs/ba") > -1) {
-       console.log(envlogtxt +"IPFS.");
-}
-
-if((navigator.userAgent.indexOf("Opera") || navigator.userAgent.indexOf('OPR')) != -1 ) 
-    {
-        alert('Opera');
-    }
-    else if(navigator.userAgent.indexOf("Chrome") != -1 )
-    {
-        alert('Chrome');
-        /* document.querySelector("#environment").innerHTML = `Chrome`; */
-    }
-    else if(navigator.userAgent.indexOf("Safari") != -1)
-    {
-        alert('Safari');
-    }
-    else if(navigator.userAgent.indexOf("Firefox") != -1 ) 
-    {
-         //alert('Firefox');
-    }
-    else if((navigator.userAgent.indexOf("MSIE") != -1 ) || (!!document.documentMode == true )) //IF IE > 10
-    {
-      alert('IE'); 
-    }  
-    else 
-    {
-       alert('unknown');
-    }
-
-//function setInnerHTML(element, content) {
-//    element.innerHTML = content;
-//    return element;
-//} 
-
-}
+} // end of "window.onload"
