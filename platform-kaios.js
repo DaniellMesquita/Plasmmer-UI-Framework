@@ -18,7 +18,7 @@ document.querySelector("#landinglogo").innerHTML = `<img width="50px" src="logo.
 document.querySelector("#landingtitle").innerHTML = ``;
 
 const softkeyCallback = {
-    left: function() { console.log('You click on SoftLeft') },
+    left: function() { window.close() },
     center: function() { document.location.reload(true) },
     right: function() { console.log('You click on SoftRight') }
 };
