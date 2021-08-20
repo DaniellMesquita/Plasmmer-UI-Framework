@@ -3,6 +3,7 @@ document.querySelector("#head").innerHTML += `<link rel="stylesheet" type="text/
 document.querySelector("#head").innerHTML += `<link rel="stylesheet" type="text/css" href="css/softkey.css">`;
 
 document.querySelector("#placefirst").innerHTML += `<header><span>FrameworkJS r3</span></header>`;
+document.querySelector("#body").innerHTML += `<style>#landinglogo{margin-top:13px}</style>`;
 
 //var insertheaderfirst = document.getElementById('body');
 //insertheaderfirst.insertBefore(document.createElement("header"), container.firstChild);
