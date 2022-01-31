@@ -1,0 +1,22 @@
+Layouts, partials, files, docs
+
+https://requirejs.org/
+https://github.com/thdoan/strftime
+https://github.com/leeoniya/preCode.js
+https://github.com/mattbryson/TouchSwipe-Jquery-Plugin
+Use designs from ZN
+
+Splashscreen:
+- Plain hidden HTML
+- Load components | PWA cach index.html | Detect cnnctn
+- Remove cond(clrnt/zn) > Bsc HTML(minim splsh, lazy load imgs with blck)
+- Load basic scripts > PWA cach
+- Tabl HTML > If slow, ask to load more/CSS / If not, load and ask to full download (all features to be cached)
+- PWA cach | remove tabl(minim splsh)
+- Lazy load img > PWA cach
+
+https://webpack.js.org/guides/lazy-loading/
+
+Load feature (e.g. Post Editor) > PWA cach
+New update for component/feature
+New site/app update

@@ -1,0 +1,26 @@
+http://127.0.0.1:43110/1Fmwk685eaX7GjoQ7JKo3QvywizGfnYRCB/
+
+Our Core:
+Bootstrap
+Material Design 2
+
+Our Metaphor:
+Glass (update browser, enable flags) https://www.diolinux.com.br/2019/01/nova-versao-do-deepin-15-9.html
+Light https://d2phap.github.io/fluent-reveal-effect/
+Materials
+Responsiveness
+
+Pure or FMWK version
+FMWK:
+Colored <header> and <footer>
+
+no one need to know you're using FrameworkJS
+content-DAO
+agnostic (flat bar, small text, flat/gradient images, any icon font, gets content from any site to create an reading mode to load it faster)
+ideal for slow networks
+sitemap
+generator app
+CMS: blog
+psch design (dev item with low-text on top, colored icons)
+
+no competitor frameworks: like we should contribute to improve ethereum (and their codebase is amazing and open for contributions) instead of creating an new controverse blockchain (splitting the open-source community), framework reflects the ph of web 3.0, and is the One framework to everyone build toghether to help their sites and other projects

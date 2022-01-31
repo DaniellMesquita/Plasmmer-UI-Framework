@@ -1,0 +1,17 @@
+Detect if:
+Clearnet (except when decentralized proxy/gateway)
+ZeroNet
+Dat
+
+FMWK ZN plugin message
+FrameworkJS clone on Dat
+
+ZN tutorial:
+optional files
+
+Dat tutorial:
+sparse files
+
+Change link/string according to network
+
+https://sammacbeth.eu/

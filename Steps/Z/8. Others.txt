@@ -1,0 +1,158 @@
+Donations
+
+Ajax
+
+new css/js files
+items on header nav
+customized material icon font
+bigger reading
+
+mobile
+.color on float button
+css for float buttons
+header logo
+customized material icon font
+tabs without icons
+bigger reading
+download optional files
+.git folder as optional file
+
+chrome://flags/#enable-experimental-web-platform-features
+
+browser-like tab menus
+https://github.com/edwinhuish/bootstrap-multitabs
+
+guideline for site icons (and the social ones)
+
+basis on human design
+
+ZeroBlog
+ZeroTalk
+0play Chat
+Duniter/gChange
+Lightning
+Dat
+QRL
+D.Tube
+GDevelop
+Riot.im
+
+chrome://flags/#enable-experimental-web-platform-features
+
+
+{
+    "register": "", 
+    "zeronet": {
+        "": "15hL2gR4oCSgKBbndn3MxY8Hc5xoy1vqCe"
+    }
+}
+
+FMWK notifs: FMWK > Web-Cordova-UWP
+http://127.0.0.1:43110/1MVgmEe4KsAgbx1QeQ8wgkYftVnTDjcCjr/
+
+
+
+
+
+
+
+
+
+js like rust
+A systems programming language that runs blazingly fast, prevents segfaults, and guarantees thread safety.
+
+
+http://127.0.0.1:43110/blurhy.bit/?/
+
+
+
+https://datproject.org/
+https://dat.land/
+https://www.mozilla.org/en-US/firefox/64.0/whatsnew/?oldversion=63.0.3/
+https://vivaldi.com/browser/whats-new-in-vivaldi-2-1/
+https://www.androidpit.com.br/hands-on-android-go
+https://github.com/ant-design/ant-design
+
+detect scroll and prevent unread content on auto-loading
+
+https://github.com/meetalva/alva
+https://github.com/flutter/flutter
+https://github.com/google/flutter-desktop-embedding
+
+
+https://developer.apple.com/documentation/appkit
+https://developer.apple.com/documentation/uikit
+
+unif xp for ZN, Dat, IPFS, ETH
+
+https://signup.steemit.com/
+https://steepshot.io/?utm_source=StateOfTheDApps
+https://infura.io/?utm_source=StateOfTheDApps
+https://paratii.video/?utm_source=StateOfTheDApps
+https://status.im/
+https://www.ethfinex.com/
+https://www.personaltokens.io/
+https://protocol.ai/
+https://ipld.io/
+https://multiformats.io/
+https://libp2p.io/
+https://protofire.io/
+https://frame.sh/
+https://codefund.app/publishers
+https://embraceclarity.com/intro/?utm_source=StateOfTheDApps
+https://bitpet.co/?utm_source=StateOfTheDApps
+https://www.uport.me/
+https://github.com/aragon/aragon-ui
+https://obsproject.com/download
+https://aragon.org/
+https://theqrl.org/
+
+For ZeroNet/Clearnet adaptive code and easier production (to not need to create the same features for every site) I'm creating FrameworkJS: an simple, powerfull and adaptive web framework, for both ZeroNet and clearnet. Also, FrameworkJS will help turn zites into real apps. FrameworkJS will make easier the creation of a new project: the user simply clicks to create a new project, the zite is clonned and user is redirected to its brand new project. A "open zite's folder" API should be usefull, so this new project can show this button for user easily begin editting files.
+
+ES6 and WebAssembly
+
+paste images from clipboard
+
+metamask prompt/suggest
+
+plugins: blckadblck
+
+https://mdbootstrap.com/docs/jquery/
+https://versus.com/br/angularjs-vs-react
+https://www.toptal.com/front-end/angular-vs-react-for-web-development
+https://dzone.com/articles/react-vs-angular-vs-vuejs-a-complete-comparison-gu
+
+C:\Users\Notebook Positivo\fmwk
+link on bootstrap material
+
+comments zn
+
+remove inline ul's overflow hidden
+
+show warn when framework is outdated
+
+fix sticky button link
+
+build instructions
+Upgr guide
+
+ready-sites: Eventlr, Plasnerd, Floflis
+P crpt, Gittex, Notestick, ultracreator, YM
+
+
+
+
+
+
+
+
+
+
+
+https://css-tricks.com/now-ever-might-not-need-jquery/
+https://github.com/vuetifyjs/vuetify-loader
+https://github.com/donnemartin/system-design-primer
+detect if: zeronet, zeronet-proxy, clearnet
+breadcrumbs
+
+Unif Material frameworks (Angular, Vue, Bootstrap)

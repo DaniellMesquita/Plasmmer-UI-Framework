@@ -1,0 +1,56 @@
+- <ul class="drop">
+
+#ff4081
+
+FMWK Docs
+Update "Explore the elements" and other links
+
+Fix this logo on mobile
+
+
+.logo, logo .badge {
+    top: -11px;
+    margin-left: -5px;
+    font-size: 12px!important;
+    background: #ff9800;
+    color: #000000de;
+    border: 1px solid #000000de;
+}
+New kind of badge: post-it
+
+- New style for logo
+- Begin of breadcrumbs on <header>
+- New .note badge style
+- Fixed <header>'s nav menu
+
+Bottom margin for grid cards (needs better fix)
+
+Merge initial page info with Common Design
+
+Get rid of tab menu in initial page
+
+Fix infos about download FMWK and ZN
+
+Fix the "Starting" heading. Move it to docs
+Instructions for FMWK C2
+
+Layers
+
+Omni-Link in "Note: Bootstrap Material Design components and elements are also usable!"
+Update "Personalize"
+
+Support PWAs
+
+Omni-Link in "Visit PEHTML!" button
+
+Omni-Link in "Explore Material Icons!" button
+
+Update "Using Framework.js"
+
+Omni-Link in badge images
+
+Brand new, professional footer
+
+Omni-Link comments, compatible with Hugo/Staticman and 3Box
+
+Better-tabs plugin

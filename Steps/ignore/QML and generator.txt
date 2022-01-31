@@ -1,0 +1,6 @@
+https://colorlib.com/wp/top-templating-engines-for-javascript/
+https://www.sitepoint.com/fusebox-faster-webpack-alternative/
+https://riot.js.org/
+https://medium.com/@bretcameron/so-you-think-you-know-html-7813c03f8ff6
+https://www.staticgen.com/
+https://gohugo.io/

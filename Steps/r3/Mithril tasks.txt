@@ -1,0 +1,7 @@
+Use HTML template from elements.html, remove dependency in UmbrellaJS and VueJS
+Replace elements.html (which now is in Common Design) to /components page
+https://how-to-mithril.js.org/
+https://arthurclemens.github.io/mithril-template-converter/
+Header as a component (simple, implement original in Common Design)
+Footer as a component (simple, implement original in Common Design)
+Can a component have subcomponents?
