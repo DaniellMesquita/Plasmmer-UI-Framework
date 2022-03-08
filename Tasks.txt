@@ -1,0 +1,1 @@
+four things to detect: OS (KaiOS, etc), browser (Electron, Chrome, etc), protocol
