@@ -2,7 +2,7 @@
   "name": "FrameworkJS",
   "description": "The framework for the Web 3.0",
   "ime_default_softkey_bar": true,
-  "launch_path": "/index.html",
+  "launch_path": "/app.html",
   "type": "privileged",
   "icons": {
     "56": "/notes/icon_56.png",
