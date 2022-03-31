@@ -14,7 +14,7 @@ let mainWindow = null
 app.on('ready', () => {
   console.log('The application is ready.')
 
-  mainWindow = new BrowserWindow({icon: 'logo.png'})
+  mainWindow = new BrowserWindow({icon: 'icon.png'})
 
   mainWindow.loadURL('file://' + path.join(__dirname, 'app.html'))
 
