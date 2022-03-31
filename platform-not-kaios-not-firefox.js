@@ -35,6 +35,19 @@ if(!!window.cordova){
 }
 // from https://ourcodeworld.com/articles/read/390/how-to-know-if-your-application-is-running-in-cordova-or-a-web-browser
 
+var userAgent = navigator.userAgent.toLowerCase();
+if (userAgent.indexOf(' electron/') > -1) {
+   //OSName="Electron";
+   //console.log(envlogtxt +OSName);
+   //var environmenttext = document.getElementById('environment');
+   //var text = document.createTextNode(OSName);
+   //environmenttext.appendChild(text);
+   console.log(envlogtxt +"Electron.");
+   var environmenttext = document.getElementById('environment');
+   var text = document.createTextNode("Electron.");
+   environmenttext.appendChild(text);
+}
+
 if(OSName == 'Altaica'){
         console.log(envlogtxt +OSName +".");
         var environmenttext = document.getElementById('environment');

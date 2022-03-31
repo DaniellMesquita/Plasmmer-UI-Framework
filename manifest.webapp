@@ -1,6 +1,9 @@
 {
+  "id": "framework",
+  "application": "app",
   "name": "FrameworkJS",
   "description": "The framework for the Web 3.0",
+  "linux_icon": "",
   "ime_default_softkey_bar": true,
   "launch_path": "/app.html",
   "type": "privileged",
@@ -27,9 +30,12 @@
       "description": "The framework for the Web 3.0"
     }
   },
+  "floflispackager": {
+    "exportsfolder": "."
+  },
   "default_locale": "en-US",
-  "author": "Daniella Mesquita",
-  "url": "index.html",
+  "author": "plasmmer",
+  "url": "app.html",
   "icon": "logo.svg",
   "width": "700",
   "height": "450",
