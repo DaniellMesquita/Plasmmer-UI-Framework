@@ -10,14 +10,14 @@ document.querySelector("#splashloader").innerHTML = ``;
 
 var envlogtxt = "Environment detected: "
 if(OSName == 'Firefox OS'){
-        console.log(envlogtxt +OSName +".");
+        console.log(envlogtxt +OSName +"🦊");
         var environmenttext = document.getElementById('environment');
         var text = document.createTextNode(OSName);
         environmenttext.appendChild(text);
 }
 
 if(OSName == 'KaiOS'){
-        console.log(envlogtxt +OSName +".");
+        console.log(envlogtxt +OSName +"🈺");
         var environmenttext = document.getElementById('environment');
         var text = document.createTextNode(OSName);
         environmenttext.appendChild(text);

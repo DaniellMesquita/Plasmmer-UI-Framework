@@ -42,9 +42,9 @@ if (userAgent.indexOf(' electron/') > -1) {
    //var environmenttext = document.getElementById('environment');
    //var text = document.createTextNode(OSName);
    //environmenttext.appendChild(text);
-   console.log(envlogtxt +"Electron.");
+   console.log(envlogtxt +"Electron⚛");
    var environmenttext = document.getElementById('environment');
-   var text = document.createTextNode("Electron.");
+   var text = document.createTextNode("Electron⚛");
    environmenttext.appendChild(text);
 }
 
