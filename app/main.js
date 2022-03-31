@@ -16,7 +16,7 @@ app.on('ready', () => {
 
   mainWindow = new BrowserWindow({icon: 'icon.png'})
 
-  mainWindow.loadURL('file://' + path.join(__dirname, 'app.html'))
+  mainWindow.loadURL('file://' + path.join(__dirname, 'index.html'))
 
   mainWindow.on('closed', function() {
     mainWindow = null
