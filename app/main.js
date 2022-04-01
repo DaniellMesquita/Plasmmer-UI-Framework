@@ -14,9 +14,9 @@ let mainWindow = null
 app.on('ready', () => {
   console.log('The application is ready.')
 
-  mainWindow = new BrowserWindow({icon: 'icon.png'})
+  mainWindow = new BrowserWindow({icon: 'icon.png', frame: false})
 
-  mainWindow.loadURL('file://' + path.join(__dirname, 'index.html'))
+  mainWindow.loadURL('file://' + path.join(__dirname, 'framlr.html'))
 
   mainWindow.on('closed', function() {
     mainWindow = null
