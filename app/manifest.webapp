@@ -5,7 +5,7 @@
   "description": "The framework for the Web 3.0",
   "linux_icon": "",
   "ime_default_softkey_bar": true,
-  "launch_path": "/app.html",
+  "launch_path": "/index.html",
   "type": "privileged",
   "icons": {
     "56": "/notes/icon_56.png",
@@ -35,7 +35,7 @@
   },
   "default_locale": "en-US",
   "author": "plasmmer",
-  "url": "app.html",
+  "url": "index.html",
   "icon": "logo.svg",
   "width": "700",
   "height": "450",
