@@ -37,11 +37,6 @@ if(!!window.cordova){
 
 var userAgent = navigator.userAgent.toLowerCase();
 if (userAgent.indexOf(' electron/') > -1) {
-   //OSName="Electron";
-   //console.log(envlogtxt +OSName);
-   //var environmenttext = document.getElementById('environment');
-   //var text = document.createTextNode(OSName);
-   //environmenttext.appendChild(text);
    console.log(envlogtxt +"Electron⚛");
    var environmenttext = document.getElementById('environment');
    var text = document.createTextNode("Electron⚛");
@@ -67,7 +62,7 @@ if("localhost:" == document.location.protocol)
                 //document.querySelector("#environment").innerHTML = `Localhost`;
 	}
 	
-if("ipfs:" == document.location.protocol){console.log(envlogtxt +"IPFS.");//document.querySelector("#environment").innerHTML = `IPFS`;}
+if("ipfs:" == document.location.protocol){console.log(envlogtxt +"IPFS.");}
 if(window.location.href.match(/ba(.*)\.ipfs\./)){console.log(envlogtxt +"IPFS.");}
 if(window.location.href.indexOf("/ipfs/Qm") > -1){console.log(envlogtxt +"IPFS.");}
 if(window.location.href.indexOf("/ipfs/ba") > -1){console.log(envlogtxt +"IPFS.");}
@@ -102,3 +97,17 @@ if((navigator.userAgent.indexOf("Opera") || navigator.userAgent.indexOf('OPR')) 
 //    element.innerHTML = content;
 //    return element;
 //}
+
+if(typeof(cordova) !== "object"){
+    if (OSName !== 'Altaica'){
+                if (userAgent.indexOf(' electron/') <= -1){
+                        document.querySelector("#splashloader").innerHTML = ``;
+                        console.log(envlogtxt +"Not mobile and not desktop app.");
+                        var environmenttext = document.getElementById('environment');
+                        var text = document.createTextNode("Not mobile and not desktop app.");
+                        environmenttext.appendChild(text);
+                        requirejs(["platform-not-mobile-not-desktop.js"],function(util){});
+                        requirejs(["platform-not-mobile-not-desktop-custom.js"],function(util){});
+}
+}
+}
