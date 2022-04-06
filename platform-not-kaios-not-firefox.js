@@ -67,23 +67,10 @@ if("localhost:" == document.location.protocol)
                 //document.querySelector("#environment").innerHTML = `Localhost`;
 	}
 	
-if("ipfs:" == document.location.protocol)
-	{
-                console.log(envlogtxt +"IPFS.");
-                //document.querySelector("#environment").innerHTML = `IPFS`;
-	}
-	
-if(window.location.href.match(/ba(.*)\.ipfs\./)) {
-       console.log(envlogtxt +"IPFS.");
-}
-
-if(window.location.href.indexOf("/ipfs/Qm") > -1) {
-       console.log(envlogtxt +"IPFS.");
-}
-
-if(window.location.href.indexOf("/ipfs/ba") > -1) {
-       console.log(envlogtxt +"IPFS.");
-}
+if("ipfs:" == document.location.protocol){console.log(envlogtxt +"IPFS.");//document.querySelector("#environment").innerHTML = `IPFS`;}
+if(window.location.href.match(/ba(.*)\.ipfs\./)){console.log(envlogtxt +"IPFS.");}
+if(window.location.href.indexOf("/ipfs/Qm") > -1){console.log(envlogtxt +"IPFS.");}
+if(window.location.href.indexOf("/ipfs/ba") > -1){console.log(envlogtxt +"IPFS.");}
 
 if((navigator.userAgent.indexOf("Opera") || navigator.userAgent.indexOf('OPR')) != -1 ) 
     {
