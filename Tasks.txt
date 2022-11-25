@@ -1,1 +1,3 @@
-four things to detect: OS (KaiOS, etc), browser (Chrome, Firefox, etc), protocol, app framework (Electron, Cordova)
+- four things to detect: OS (KaiOS, etc), browser (Chrome, Firefox, etc), protocol, app framework (Electron, Cordova)
+
+- Use softkeys for beyond KaiOS: Nintendo Switch and other gaming consoles/entertainment stations
