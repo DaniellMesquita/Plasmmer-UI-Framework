@@ -1,0 +1,15 @@
+https://etherscan.io/tx/0xa0bff21c5032ff9ab620f68cc9d56af67188cf4d91d19e7a29f87ff95e1a0340
+
+fileprotocol.js
+framlr.css
+framlr.html
+framlr.js
+index.html
+index.js
+logo.svg
+main.js
+manifest.webapp
+package.json
+platform-kaios.js
+platform-kaios-custom.js
+platform-not-kaios-not-firefox.js
