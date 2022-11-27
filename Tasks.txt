@@ -1,3 +1,11 @@
+- only manipulate elements if these exist
+- move environment detection to custom js
+
+pocket-kitten:
+- when adding KaiOS CSS, also add app theme color
+- KaiOS buttons: ?, New cat, Fullscreen
+- KaiOS: fullscreen mode (removes tip and image occupies the whole screen and softkey footer becomes transparent)
+
 - four things to detect: OS (KaiOS, etc), browser (Chrome, Firefox, etc), protocol, app framework (Electron, Cordova)
 
 - Use softkeys for beyond KaiOS: Nintendo Switch and other gaming consoles/entertainment stations
