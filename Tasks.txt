@@ -9,3 +9,5 @@ pocket-kitten:
 - four things to detect: OS (KaiOS, etc), browser (Chrome, Firefox, etc), protocol, app framework (Electron, Cordova)
 
 - Use softkeys for beyond KaiOS: Nintendo Switch and other gaming consoles/entertainment stations
+
+- FMWK r3: detect if Chromium-based or Firefox. Sample extension site that displays a "{platform} Addon" menu item
