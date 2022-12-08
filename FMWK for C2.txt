@@ -1,0 +1,10 @@
+FMWK for Construct (2/3)
+- HTML addon
+- Electron addon
+for games:
+- AirConsole
+-
+Hybrid games/apps can work on Electron, AirConsole and others, with the same source
+
+Dscrd servers on all sites
+https://discord.gg/utNMVDsdqX Construct 2/3 apps (not games)

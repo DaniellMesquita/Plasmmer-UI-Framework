@@ -1,0 +1,9 @@
+FMWK v3
+- updated dependencies (diff between plugz and npm)
+- get from other sites
+- split with CommonDesign
+- fix start page icons, text, tabs, dist/download
+- @frameworkjs/framework
+- CLI
+- use plugz to manage dependencies and dist
+- clearer README.md
