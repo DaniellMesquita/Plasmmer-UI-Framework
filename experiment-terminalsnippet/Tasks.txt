@@ -1,0 +1,9 @@
+- overhide Framework's <code> style
+- make tabs smaller and use white line bellow tabs
+- fix the "Copiar" btn (language, position, checkmark icon position)
+
+- ask sempreupdate.com.br for authorization, then both sempreupdate.com.br+diolinux.com.br+edivaldobrito.com.br for integration
+- come with Framework's Wordpress theme
+- come to Hugo
+
+- Framlr integration/support for GTK themes
