@@ -1,0 +1,18 @@
+<section class="terminal"><div class="terminal-header"><span class="terminal-header-title">Terminal</span></div><div class="terminal-body">
+<div class="terminal-body-content"><code class="terminal-body-code">flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo</code><button type="button" class="terminal-body-code-button" style="display: flex;">Copiar<svg viewBox="0 0 375.147 375.147"><polygon points="344.96,44.48 119.147,270.293 30.187,181.333 0,211.52 119.147,330.667 375.147,74.667 		"></polygon></svg></button></div>
+</div></section>
+
+<section class="terminal"><div class="terminal-header"><span class="terminal-header-title">Terminal</span></div><div class="terminal-body">
+<div class="terminal-body-content"><code class="terminal-body-code">sudo apt install flatpak</code><button type="button" class="terminal-body-code-button has-copy" style="display: flex;">Copiar<svg viewBox="0 0 375.147 375.147"><polygon points="344.96,44.48 119.147,270.293 30.187,181.333 0,211.52 119.147,330.667 375.147,74.667 		"></polygon></svg></button></div>
+</div></section>
+
+with the class "has-copy" added, the "terminal-body-code-button" element adds the checkmark when the button is clicked to copy content to clipboard
+
+place at the bottom:
+<script src="https://sempreupdate.com.br/wp-includes/js/clipboard.min.js?ver=2.0.11" id="clipboard-js" defer=""></script>
+<script data-minify="1" src="https://sempreupdate.com.br/wp-content/cache/min/1/wp-content/plugins/highlighting-code-block/assets/js/prism.js?ver=1671113074" id="hcb-prism-js" defer=""></script>
+<script data-minify="1" src="https://sempreupdate.com.br/wp-content/cache/min/1/wp-content/plugins/highlighting-code-block/build/js/hcb_script.js?ver=1671113074" id="hcb-script-js" defer=""></script>
+<link href="https://sempreupdate.com.br/wp-content/cache/min/1/wp-content/plugins/apiki-gutenberg/dist/theme.js?ver=1671113074" rel="preload" as="script">
+<script data-minify="1" src="https://sempreupdate.com.br/wp-content/cache/min/1/wp-content/plugins/apiki-gutenberg/dist/theme.js?ver=1671113074" id="apiki-gutenberg-theme-js" defer=""></script>
+<link rel="stylesheet" href="https://sempreupdate.com.br/wp-content/cache/min/1/fd1e212a1a2ef4094bf5359146bfee7c.css" data-rocket-async="style" as="style" onload="this.onload=null;this.rel='stylesheet'" onerror="this.removeAttribute('data-rocket-async')" media="all" data-minify="1">
+<noscript><link rel="stylesheet" href="https://sempreupdate.com.br/wp-content/cache/min/1/fd1e212a1a2ef4094bf5359146bfee7c.css" media="all" data-minify="1" /><link rel='stylesheet' id='elementor-post-172218-css' href='https://sempreupdate.com.br/wp-content/uploads/elementor/css/post-172218.css?ver=1671113051' media='all' /><link rel='stylesheet' id='elementor-global-css' href='https://sempreupdate.com.br/wp-content/uploads/elementor/css/global.css?ver=1671113053' media='all' /></noscript>
