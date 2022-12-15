@@ -1,6 +1,52 @@
+﻿<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<title color="#fff">Framework.js - test Terminal clipboard snippet</title>
+<link rel="icon" href="icon.ico" />
+<base href="../">
+<meta charset="utf-8">
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta content="width=device-width,initial-scale=1,minimal-ui,shrink-to-fit=no" name="viewport">
+<link rel="icon" href="icon.png" />
+<link rel="logo" href="icon.svg" border="true" />
+<script type="text/javascript" src="plugins/jQuery/jquery.min.js"></script>
+<script type="text/javascript" src="plugins/Popper.js/popper.min.js"></script>
+<script type="text/javascript" src="plugins/Bootstrap/js/bootstrap.min.js"></script>
+<script src="plugins/Bootstrap/themes/material/js/material.min.js"></script>
+<script type="text/javascript" src="js/page-common.js"></script>
+<link href="plugins/Bootstrap/themes/material/css/material.min.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css/page-common.css">
+<link rel="stylesheet" type="text/css" href="css/page-custom.css">
+<link rel="stylesheet" type="text/css" href="css/dark-common.css"><link rel="stylesheet" type="text/css" href="css/dark-custom.css">
+<link rel="stylesheet" type="text/css" href="css/app-common.css">
+<link href="Fonts/Roboto/font.css" rel="stylesheet">
+<link href="Fonts/Material Icons/font.css" rel="stylesheet">
+<meta name="pehtml" content="true">
+<meta name="directory" content="css, js, img, snd">
+<meta name="description" content="Its a modern and responsive framework/template/theme thinked for apps and sites of the future. A unique framework with the same code, both for apps and sites.">
+<meta name="keywords" content="HTML5 Framework, Web Framework, Web UI Framework, Site Framework, App Framework">
+</head>
+<body>
+
 <section class="terminal"><div class="terminal-header"><span class="terminal-header-title">Terminal</span></div><div class="terminal-body">
-Tabs | <img width="16px" src="http://web.archive.org/web/20220130104648/https://floflis.com/os/logo_flat_white.svg"/> Tab
-<div class="terminal-body-content"><code class="terminal-body-code">sudo apt install flatpak</code><button type="button" class="terminal-body-code-button" style="display: flex;">Copiar<svg viewBox="0 0 375.147 375.147"><polygon points="344.96,44.48 119.147,270.293 30.187,181.333 0,211.52 119.147,330.667 375.147,74.667 		"></polygon></svg></button></div>
+
+<ul class="nav nav-justified nav-tabs" id="justifiedTab" role="tablist">
+  <li class="nav-item">
+    <a aria-controls="debian" aria-selected="true" class="nav-link active" data-toggle="tab" href="#debian" id="debian-tab" role="tab"><img width="16px" src="https://upload.wikimedia.org/wikipedia/commons/9/9e/UbuntuCoF.svg"/> Ubuntu/Debian (Bash)</a>
+  </li>
+  <li class="nav-item">
+    <a aria-controls="floflis" aria-selected="false" class="nav-link" data-toggle="tab" href="#floflis" id="floflis-tab" role="tab"><img width="16px" src="http://web.archive.org/web/20220130104648/https://floflis.com/os/logo_flat_white.svg"/> Floflis (Nushell)</a>
+  </li>
+</ul>
+
+<div class="terminal-body-content">
+
+<div class="tab-content" id="justifiedTabContent">
+  <div aria-labelledby="debian-tab" class="tab-pane fade show active" id="debian" role="tabpanel"><code class="terminal-body-code">sudo apt install flatpak && flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo</code><button type="button" class="terminal-body-code-button" style="display: flex;">Copiar<svg viewBox="0 0 375.147 375.147"><polygon points="344.96,44.48 119.147,270.293 30.187,181.333 0,211.52 119.147,330.667 375.147,74.667 		"></polygon></svg></button></div>
+  <div aria-labelledby="floflis-tab" class="tab-pane fade" id="floflis" role="tabpanel"><code class="terminal-body-code">sudo apt install flatpak ; flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo</code><button type="button" class="terminal-body-code-button" style="display: flex;">Copiar<svg viewBox="0 0 375.147 375.147"><polygon points="344.96,44.48 119.147,270.293 30.187,181.333 0,211.52 119.147,330.667 375.147,74.667 		"></polygon></svg></button></div>
+</div>
+
+</div>
 </div></section>
 
 <script src="http://web.archive.org/web/20221215183728if_/https://sempreupdate.com.br/wp-includes/js/clipboard.min.js?ver=2.0.11" id="clipboard-js" defer=""></script>
@@ -8,3 +54,5 @@ Tabs | <img width="16px" src="http://web.archive.org/web/20220130104648/https://
 <script data-minify="1" src="http://web.archive.org/web/20221215183759if_/https://sempreupdate.com.br/wp-content/cache/min/1/wp-content/plugins/apiki-gutenberg/dist/theme.js?ver=1671113074" id="apiki-gutenberg-theme-js" defer=""></script>
 <link rel="stylesheet" href="http://web.archive.org/web/20221215183853if_/https://sempreupdate.com.br/wp-content/cache/min/1/fd1e212a1a2ef4094bf5359146bfee7c.css" data-rocket-async="style" as="style" onload="this.onload=null;this.rel='stylesheet'" onerror="this.removeAttribute('data-rocket-async')" media="all" data-minify="1">
 <noscript><link rel="stylesheet" href="http://web.archive.org/web/20221215183853if_/https://sempreupdate.com.br/wp-content/cache/min/1/fd1e212a1a2ef4094bf5359146bfee7c.css" media="all" data-minify="1" /><link rel='stylesheet' id='elementor-post-172218-css' href='http://web.archive.org/web/20221215184027if_/https://sempreupdate.com.br/wp-content/uploads/elementor/css/post-172218.css?ver=1671113051' media='all' /><link rel='stylesheet' id='elementor-global-css' href='http://web.archive.org/web/20221215184055if_/https://sempreupdate.com.br/wp-content/uploads/elementor/css/global.css?ver=1671113053' media='all' /></noscript>
+</body>
+</html>
