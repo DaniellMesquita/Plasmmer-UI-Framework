@@ -1,7 +1,7 @@
+https://floating-ui.com/
+
 -? add selection effect inspired by https://www.microsoft.com/pt-br/edge?form=MA13FJ
 
 - move app/ into its own repo
 - make framework-ui repo and move the works of r2; support reactively changing theme according to OS dark/light preference https://www.hanselman.com/blog/how-to-detect-if-the-users-os-prefers-dark-mode-and-change-your-site-with-css-and-js https://www.freecodecamp.org/news/how-to-detect-a-users-preferred-color-scheme-in-javascript-ec8ee514f1ef/
 - fmwk r3 NPM package
-
-https://floating-ui.com/
