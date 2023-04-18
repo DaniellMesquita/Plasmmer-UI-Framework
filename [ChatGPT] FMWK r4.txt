@@ -1,0 +1,279 @@
+"Now let's think about FrameworkJS r4.
+
+On its fourth release, FrameworkJS despite being a vanilla JS framework, it will get support for both React Web/Native and for Mithtril.
+
+How that flexibility can be achieved from a vanilla JS framework?"
+
+There are a few ways in which a vanilla JavaScript framework like FrameworkJS can support other libraries and frameworks like React Web/Native and Mithril:
+1. Compatibility with the virtual DOM: React and Mithril both use a virtual DOM to efficiently update the user interface. FrameworkJS could also adopt this approach, which would make it easier to integrate with React and Mithril.
+2. Providing adapter libraries: FrameworkJS could provide adapter libraries that allow React and Mithril components to be used within a FrameworkJS application. These adapters would essentially act as a bridge between the two frameworks, enabling them to communicate with each other.
+3. Keeping the core framework simple: By keeping the core FrameworkJS framework simple and modular, it would be easier to integrate with other libraries and frameworks. This would allow developers to pick and choose the tools they want to use in their application, rather than being locked into a specific set of tools.
+
+Overall, by adopting a flexible and modular approach, FrameworkJS could easily integrate with other libraries and frameworks, such as React Web/Native and Mithril, while still maintaining its vanilla JavaScript roots.
+
+"But ReactJS/ReactNative requires being compiled, while Mithtil don't.
+
+How can FrameworkJS handle that, as FrameworkJS itself isn't compilable but vanillaJS?"
+
+You're correct that React Web/Native requires compilation through tools like Babel and Webpack, while Mithril does not require compilation. However, FrameworkJS can still support both of these libraries through different approaches.
+
+For React Web/Native, FrameworkJS could provide a build step that compiles the FrameworkJS code and the React code together into a single bundle that can be used in the browser or on mobile devices. This bundle would be created using a tool like Babel and Webpack, just like with a regular React application. Once the bundle is created, it can be loaded into a webpage or a mobile app just like any other JavaScript file.
+
+For Mithril, since it doesn't require compilation, the FrameworkJS code and the Mithril code can be used together without any additional build steps. FrameworkJS could provide helper functions or modules that make it easier to use Mithril within a FrameworkJS application, but ultimately, the Mithril code would be used directly in the browser or on mobile devices without any compilation.
+
+Overall, FrameworkJS can handle both compiled and non-compiled libraries by providing build steps and helper functions as needed, depending on the requirements of the library.
+
+"But is that possible to include React in vanillaJS and compile altogether?"
+
+Yes, it is possible to include React in a vanilla JavaScript application and compile them altogether. In fact, many modern web applications use this approach, where they include React as a library and use tools like Babel and Webpack to compile the code.
+
+When React is included as a library in a vanilla JavaScript application, it provides a set of APIs and components that can be used to create user interfaces. The application can then use these components and APIs to render the user interface, manage state, and handle user interactions.
+
+However, since React uses JSX syntax, which is not natively supported by web browsers, the code must be compiled using a tool like Babel. Babel is a JavaScript compiler that can transform modern JavaScript syntax and JSX into JavaScript code that can be understood by web browsers. Webpack is a module bundler that can bundle all the required code, including React, into a single file that can be loaded by the web browser.
+
+So, to use React in a vanilla JavaScript application, you would need to include the React library in your code, write your components using JSX syntax, and use Babel and Webpack to compile and bundle the code.
+
+"I go with Babel or Webpack?"
+
+Babel and Webpack are both useful tools for modern JavaScript development, but they serve different purposes.
+
+Babel is a JavaScript compiler that allows you to use modern JavaScript features, like arrow functions, classes, and template literals, in browsers that don't yet support them. It also allows you to use JSX syntax, which is used by React to create components. Babel transforms your code into a format that is compatible with older browsers and environments.
+
+Webpack, on the other hand, is a module bundler that allows you to bundle all your JavaScript code and assets into a single file or set of files that can be loaded by the browser. It can also handle other types of assets, like CSS and images, and optimize the output for production.
+
+In a typical modern JavaScript application, you would use both Babel and Webpack together. Babel would be used to compile your JavaScript code and JSX syntax, and Webpack would be used to bundle all your code into a single file or set of files.
+
+So to answer your question, both Babel and Webpack are useful tools for modern JavaScript development, and you would use both of them together in most cases. However, the specific use cases for each tool may vary depending on the requirements of your application.
+
+"Please, for FrameworkJS r4, send me a JavaScript snippet where the vanillaJS framework mixes code of React and Mithril, and load different components for each."
+
+Here is an example JavaScript snippet that demonstrates how FrameworkJS can mix code of React and Mithril, and load different components for each:
+// Import React and Mithril libraries
+import React from 'react';
+import Mithril from 'mithril';
+
+// Define a FrameworkJS component that uses React
+class ReactComponent {
+  constructor(props) {
+    this.props = props;
+  }
+
+  render() {
+    return (
+      <div>
+        <h1>React Component</h1>
+        <p>{this.props.text}</p>
+      </div>
+    );
+  }
+}
+
+// Define a FrameworkJS component that uses Mithril
+class MithrilComponent {
+  constructor(props) {
+    this.props = props;
+  }
+
+  view() {
+    return m('div', [
+      m('h1', 'Mithril Component'),
+      m('p', this.props.text)
+    ]);
+  }
+}
+
+// Define a FrameworkJS app that loads different components based on the route
+class MyApp {
+  constructor() {
+    this.routes = {
+      '/react': ReactComponent,
+      '/mithril': MithrilComponent
+    };
+
+    // Initialize the router
+    FrameworkJS.router.init(this.routes);
+  }
+
+  // Render the app
+  render() {
+    return FrameworkJS.router.component();
+  }
+}
+
+// Initialize the app
+const myApp = new MyApp();
+
+// Mount the app on a DOM element
+FrameworkJS.mount(document.getElementById('app'), myApp);
+
+In this example, we define two FrameworkJS components, one that uses React and another that uses Mithril. We also define a FrameworkJS app that loads different components based on the route using the FrameworkJS router.
+
+When the user navigates to /react, the app will load the ReactComponent using React to render the component. When the user navigates to /mithril, the app will load the MithrilComponent using Mithril to render the component.
+
+By using the FrameworkJS router to load different components based on the route, we can mix and match different libraries and frameworks within a single application.
+
+"Awesome! Fantastic!
+
+Please rewrite that in Typescript, and let it to instead of having in-line React/Mithril components, it will import them from files!"
+
+Certainly! Here's the rewritten code in TypeScript, with the React and Mithril components imported from separate files:
+// Import React and Mithril libraries
+import * as React from 'react';
+import * as Mithril from 'mithril';
+
+// Import React and Mithril components
+import { ReactComponent } from './ReactComponent';
+import { MithrilComponent } from './MithrilComponent';
+
+// Define a FrameworkJS app that loads different components based on the route
+class MyApp {
+  private routes: { [key: string]: any } = {
+    '/react': ReactComponent,
+    '/mithril': MithrilComponent
+  };
+
+  constructor() {
+    // Initialize the router
+    FrameworkJS.router.init(this.routes);
+  }
+
+  // Render the app
+  public render(): HTMLElement {
+    return FrameworkJS.router.component();
+  }
+}
+
+// Initialize the app
+const myApp = new MyApp();
+
+// Mount the app on a DOM element
+FrameworkJS.mount(document.getElementById('app'), myApp);
+
+In this example, we import the ReactComponent and MithrilComponent from separate files using the import statement. We also use TypeScript types to annotate the types of variables and functions.
+
+Other than these changes, the code works in the same way as the previous example, with the FrameworkJS app loading different components based on the route.
+
+"Thank you for pointing out that the TypeScript version do the same as the previous vanilla JS version.
+
+Also, awesome work!
+
+So, Mithtil and React have compatible routers?"
+
+Mithril and React both have their own router implementations that work in slightly different ways. However, it is possible to use a third-party router library that is compatible with both Mithril and React to achieve consistent routing behavior across both frameworks.
+
+One such library is navigo, a lightweight and easy-to-use router that supports both Mithril and React, as well as other frameworks. navigo provides a simple and intuitive API for defining routes and handling navigation events, and it is compatible with modern browsers as well as Node.js.
+
+To use navigo with Mithril and React, you would typically define your routes and navigation handlers in a central location, and then use the appropriate navigation methods provided by the library in your Mithril or React components to trigger navigation events.
+
+Here's an example of how you might use navigo with Mithril and React:
+// Import the navigo library
+import Navigo from 'navigo';
+
+// Create a new instance of the navigo router
+const router = new Navigo();
+
+// Define the routes
+router.on({
+  '/react': () => {
+    // Render the React component
+    ReactDOM.render(<ReactComponent />, document.getElementById('app'));
+  },
+  '/mithril': () => {
+    // Render the Mithril component
+    m.mount(document.getElementById('app'), MithrilComponent);
+  }
+});
+
+// Start the router
+router.resolve();
+
+In this example, we define two routes using the on() method provided by navigo. When the user navigates to /react, the React component is rendered using ReactDOM.render(). When the user navigates to /mithril, the Mithril component is rendered using m.mount().
+
+Note that in this example, we are using the ReactDOM.render() method to render the React component directly to the DOM, while we are using the m.mount() method to render the Mithril component using the m global object provided by Mithril.
+
+By using a third-party router library like navigo, you can achieve consistent routing behavior across Mithril and React, even though they have different native router implementations.
+
+"Were your previous vanillaJS/TypeScript examples taking into account React/Mithril's differences in routers?
+
+I saw you using an universal routing example, which could be an untrue assumption."
+
+You are correct, the previous vanillaJS/TypeScript examples I provided did not take into account the differences between the routing implementations of React and Mithril.
+
+In those examples, I assumed that FrameworkJS had an internal routing system that would work seamlessly with both React and Mithril components. This may not be a realistic assumption, as React and Mithril have different router APIs and behaviors.
+
+To achieve consistent routing behavior across React and Mithril components, it may be necessary to use a third-party routing library that is compatible with both frameworks, such as navigo, as I mentioned in my previous response.
+
+I apologize for any confusion my previous responses may have caused.
+
+"Are ReactNative feature-complete so as Electron/Cordova?"
+
+React Native, Electron, and Cordova are all frameworks or platforms for developing applications, but they have different use cases and feature sets.
+
+React Native is a framework for building native mobile applications using JavaScript and React. It allows developers to use a single codebase to create apps for both iOS and Android. React Native is designed to provide a high-performance, responsive user interface that feels like a native app. While React Native has a lot of features and capabilities, it is designed specifically for mobile development and may not be feature-complete for other use cases.
+
+Electron is a framework for building desktop applications using web technologies such as HTML, CSS, and JavaScript. It allows developers to create cross-platform apps for Windows, Mac, and Linux using a single codebase. Electron provides a lot of features and capabilities for building desktop apps, including support for system-level APIs and integration with native operating system features. It is a mature platform with a large community of developers and resources available.
+
+Cordova (formerly known as PhoneGap) is a framework for building mobile apps using web technologies such as HTML, CSS, and JavaScript. It allows developers to create cross-platform apps for iOS, Android, and other mobile platforms using a single codebase. Cordova provides many plugins for accessing device features such as the camera, GPS, and accelerometer. However, Cordova apps are essentially web apps running inside a WebView, which can lead to performance issues and limitations compared to native apps.
+In summary, React Native, Electron, and Cordova have different feature sets and use cases. While each platform has a lot of capabilities, they may not be feature-complete for other use cases beyond their primary focus.
+
+"But are ReactNative so feature rich as Cordova?"
+
+React Native and Cordova are both frameworks for building mobile applications using JavaScript and web technologies, but they have different approaches and feature sets.
+
+Cordova provides a large number of plugins that allow developers to access native device features such as the camera, GPS, and accelerometer from their JavaScript code. This allows developers to create apps that can access the same features as native apps built using Java or Swift. However, Cordova apps are essentially web apps running inside a WebView, which can lead to performance issues and limitations compared to native apps.
+
+React Native, on the other hand, provides a more native-like experience by rendering components using native UI elements instead of a WebView. This results in better performance and a more responsive user interface. React Native also provides a number of built-in components for common use cases, such as lists, forms, and navigation. Additionally, React Native has a large and active community that provides a wide range of third-party libraries and plugins for adding additional features and capabilities to your app.
+
+In summary, while Cordova provides a large number of plugins for accessing device features, React Native provides a more native-like experience and has a large and active community that provides a wide range of third-party libraries and plugins for adding additional features and capabilities to your app.
+
+"Are there a ReactNative port for the desktop?
+
+Could a ReactNative Desktop app be a fast/fluid replacement for Gnome's default apps?"
+
+Yes, there is a React Native for Desktop project that allows developers to build cross-platform desktop applications using React Native. It uses the same programming model and components as React Native for mobile, but with additional desktop-specific components and APIs.
+
+React Native for Desktop currently supports Windows, macOS, and Linux operating systems, and provides access to native desktop features like menus, tray icons, and notifications. It also includes a built-in window manager for managing multiple windows and a virtual keyboard component for touch-screen devices.
+
+While it is possible to use React Native for Desktop to build a replacement for Gnome's default apps, it would require a significant amount of development effort and would likely not be a drop-in replacement. React Native for Desktop is still a relatively new project and may not have all of the features and capabilities required to build a full desktop application. Additionally, Gnome's default apps are highly integrated with the Gnome desktop environment and may require additional work to ensure that they work seamlessly with a React Native-based replacement.
+
+"Do React Native for desktop support plugins and running shell commands?"
+
+Yes, React Native for Desktop supports plugins and running shell commands. Plugins can be added to the project using the same process as React Native for mobile, by installing them through npm or yarn and then linking them to the project.
+
+For running shell commands, React Native for Desktop provides the child_process module, which allows developers to spawn child processes and communicate with them through standard input and output streams. This can be used to run shell commands and scripts as part of the desktop application's functionality.
+
+In addition, React Native for Desktop provides access to a wide range of native desktop APIs, which can be used to interact with the file system, network, system tray, window manager, and other desktop-specific features. These APIs are exposed through a set of platform-specific modules, which can be imported and used in the same way as other React Native components.
+
+"Could FrameworkJS offer a single framework that can be exported both for Cordova/Electron and ReactNative/Desktop?"
+
+Yes, it is possible for FrameworkJS to offer a single framework that can be exported for both Cordova/Electron and React Native/Desktop. However, it would require careful consideration of the different platforms and their specific requirements.
+
+For example, Cordova and Electron are both based on Chromium and use web technologies like HTML, CSS, and JavaScript. This means that FrameworkJS could be designed to work seamlessly with both platforms and take advantage of their shared features and capabilities.
+
+On the other hand, React Native and desktop platforms like Windows, macOS, and Linux have different APIs and capabilities, and may require different components and features. FrameworkJS would need to provide a way to abstract these differences and provide a unified interface for building cross-platform applications.
+
+In addition, there may be performance considerations and differences in user experience between desktop and mobile platforms that would need to be taken into account. Overall, building a cross-platform framework that can target both desktop and mobile platforms would be a complex task, but it is certainly possible with careful planning and design.
+
+"I've heard of a React framework that exports as Native to Android/iOS/Windows/Mac/Linux, and as normal React to KaiOS and Web.
+
+What is the name of this repository? I saw in on GitHub in the half of 2021."
+
+I'm not aware of any React framework that exports as native to Android/iOS/Windows/Mac/Linux and as normal React to KaiOS and Web. However, there are several cross-platform frameworks based on React that support multiple platforms.
+
+Some popular examples of cross-platform frameworks based on React include:
+
+React Native: A framework for building native mobile applications using React.
+React Native for Windows: An extension of React Native that enables building native Windows applications.
+React Native for macOS: An extension of React Native that enables building native macOS applications.
+Electron: A framework for building desktop applications using web technologies, including React.
+React Native for Web: A framework for building web applications using React Native.
+
+It's possible that the repository you're referring to is one of these or a similar framework.
+
+"Or one that uses most of these, both."
+
+There are a few frameworks that aim to support multiple platforms using React, including React Native, React Native Web, and Electron. However, it's not common to find a single framework that supports all of the platforms you mentioned, which include Android, iOS, Windows, Mac, Linux, KaiOS, and web.
+
+React Native is a popular framework for building native mobile applications on both Android and iOS using React. React Native for Web allows developers to reuse their React Native codebase to build web applications. Electron is another popular framework for building desktop applications using web technologies, including React.
+
+While these frameworks can help developers build applications for multiple platforms using a single codebase, there are still differences in how applications must be written and packaged for each platform, so it's unlikely that a single framework could handle all of the platforms you mentioned.
