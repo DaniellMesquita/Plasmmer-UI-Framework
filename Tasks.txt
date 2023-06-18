@@ -1,3 +1,5 @@
+INSP FMWK https://github.com/SaraVieira/ui-libraries
+
 https://floating-ui.com/
 
 -? add selection effect inspired by https://www.microsoft.com/pt-br/edge?form=MA13FJ
