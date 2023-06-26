@@ -1,4 +1,7 @@
+FMWK priority: work at both old FirefoxOS+KaiOS, sample hybrid-apps (cat pics), and: link transformers depending on platform: gamlr.gg or gamlr.eth!
+
 INSP FMWK https://github.com/SaraVieira/ui-libraries
+
 
 https://floating-ui.com/
 
