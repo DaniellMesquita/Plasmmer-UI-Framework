@@ -1,7 +1,12 @@
 FMWK priority: work at both old FirefoxOS+KaiOS, sample hybrid-apps (cat pics), and: link transformers depending on platform: gamlr.gg or gamlr.eth, developers.plasmmer.eth or developers.plasmmer.com!
 
-INSP FMWK https://github.com/SaraVieira/ui-libraries
+ReactWeb+ReactNative?
+https://github.com/FrameworkJavascript/renative
+https://renative.org/docs/templates/overview
+https://renative.org/docs/overview/quickstart
+https://renative.org/docs/overview/introduction
 
+INSP FMWK https://github.com/SaraVieira/ui-libraries
 
 https://floating-ui.com/
 
