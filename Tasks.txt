@@ -17,3 +17,12 @@ https://floating-ui.com/
 - fmwk r3 NPM package
 
 ﻿FMWK INSP: https://claim.zkdrop.io/mergooor-pass
+
+After ReNative, would Flutter+Rust be the next step?
+https://github.com/fzyzcjy/flutter_rust_bridge
+https://flutter.dev/
+https://github.com/shekohex/flutterust
+https://github.com/flutter-rs/flutter-rs
+https://github.com/Desdaemon/flutter_rust_bridge_template
+https://github.com/cunarist/rust-in-flutter
+https://github.com/nativeshell/nativeshell
